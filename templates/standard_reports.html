@@ -1,0 +1,149 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h3>Standard File Reports</h3>
+
+<select name="json_list_box" id="json_list_box">
+    <option selected value="NONE">---------- Select File ----------</option>
+    <option value="sample01.json">Sample01</option>
+    <option value="sample02.json">Sample02</option>
+    <option value="sample03.json">Sample03</option>
+    <option value="site_products_map.json">Site Map</option>
+    <option value="fake_server_data.json">Fake Server Data</option>
+    <option value="00064KB.json">00064KB</option>
+    <option value="00128KB.json">00128KB</option>
+    <option value="00256KB.json">00256KB</option>
+    <option value="00512KB.json">00512KB</option>
+    <option value="01024KB.json">01024KB</option>
+    <option value="05120KB.json">05120KB</option>
+    <option value="10240KB.json">10240KB</option>
+</select>
+
+<input type="text" size="40" name="json_file" id="json_file" value="" placeholder="Input File Name">
+<input type="submit" id="submit" value="submit" onclick="request_json_file()"><br>
+<span id="load_time"></span>
+<hr>
+<div class="content-area" id="content-area">
+</div>
+
+<script type="text/javascript">
+    const submitButton = document.getElementById('submit');
+    var loadTimeSpan = document.getElementById('load_time');
+
+    async function fetchData() {
+        var content_area = document.getElementById('content-area').innerHTML;
+        content_area = document.getElementById('content-area').innerHTML = "Loading in Progress...";
+
+        const DropDownElement = document.getElementById("json_list_box");
+        const json_file_name_drop = DropDownElement.value;
+
+        const inputElement = document.getElementById("json_file");
+        const json_file_name_field = inputElement.value;
+
+        var json_file_name_string = null; // set to null value.
+
+        // Prefer Drop Down list of known files.
+        if (json_file_name_drop === null || json_file_name_drop === "NONE") {
+            var json_file_name_string = "NONE"; // still empty or not selected.
+        } else {
+            var json_file_name_string = json_file_name_drop;
+        }
+
+        // Check value of the input box.
+        if (json_file_name_string === null || json_file_name_string === "NONE") {
+            if (json_file_name_field === null || json_file_name_field === "NONE") {
+                var json_file_name_string = "NONE";
+            } else {
+                var json_file_name_string = json_file_name_field;
+
+            }
+        }
+
+        // final check if empty or NONE.
+        if (json_file_name_string === null || json_file_name_string === "NONE" || json_file_name_string === "") {
+            var data = {
+                'api_code': 404,
+                'message': "error",
+                'json': null,
+                'html': "<b>No Supplied File Name</b>"
+            }
+            return data;
+        }
+
+        let is_json = json_file_name_string.endsWith(".json");
+        if (!is_json) {
+            var data = {
+                'api_code': 404,
+                'message': "error",
+                'json': null,
+                'html': "<b>Not a JSON File Name</b>"
+            }
+            return data;
+        }
+
+        const file_from_form = '/v1/fetch_json?file=' + json_file_name_string;
+        try {
+            const response = await fetch(file_from_form);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            var data = await response.json();
+            return data;
+
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
+    }
+
+    async function request_json_file() {
+        var startTime = performance.now();
+        
+        const tmp_dropdown = document.getElementById("json_list_box");
+        const tmp_drop = tmp_dropdown.value;
+
+        const tmp_inputfile = document.getElementById("json_file");
+        const tmp_field = tmp_inputfile.value;
+        if (tmp_drop === null) {
+            var file_requested = tmp_field;
+        
+        } else {
+            var file_requested = tmp_drop;
+        }
+        
+        var content_area = document.getElementById('content-area').innerHTML;
+        content_area = document.getElementById('content-area').innerHTML = "Loading in Progress...";
+        
+        var loadTimeSpan = document.getElementById('load_time');
+        loadTimeSpan.innerHTML = "";
+
+        const json_data = await fetchData();
+        for (let x in json_data) {
+            var code = json_data['api_code']
+            var mssg = json_data['message']
+            var html = json_data['html']
+            var json = json_data['json']
+        }
+        content_area = document.getElementById('content-area').innerHTML = html;
+        
+        var endTime = performance.now();
+        var executionTimeMs = endTime - startTime;
+        var executionTimeSeconds = executionTimeMs / 100;
+        var roundedSeconds = executionTimeSeconds.toFixed(3);
+        
+        var startTime = "";
+        var endTime = "";
+        
+        var loadTimeSpan = document.getElementById('load_time');
+        loadTimeSpan.innerHTML = '"' + file_requested + '" Loaded in: ' + roundedSeconds + ' seconds.';
+        var roundedSeconds = "";
+       
+        const dropdown_reset = document.getElementById('json_list_box');
+        dropdown_reset.selectedIndex = 0; // Deselects all options
+
+        const inputElement_reset = document.getElementById("json_file");
+        inputElement_reset.value = "";  // Empty the box
+
+    }
+
+</script>
+{% endblock %}

@@ -1,0 +1,81 @@
+[
+    {
+        "apjpnw01vdpr004": [
+            {
+                "timestamp": "2025-08-16 18:59:16",
+                "cpu_usage_percent": 85.06,
+                "memory_usage_gb": 13.35,
+                "disk_io_mbps": 132.83,
+                "network_latency_ms": 96.14,
+                "process_count": 185
+            }, {
+                "timestamp": "2025-08-16 18:59:30",
+                "cpu_usage_percent": 20.48,
+                "memory_usage_gb": 10.35,
+                "disk_io_mbps": 274.79,
+                "network_latency_ms": 55.04,
+                "process_count": 68
+            }, {
+                "timestamp": "2025-08-16 19:00:00",
+                "cpu_usage_percent": 65.86,
+                "memory_usage_gb": 12.38,
+                "disk_io_mbps": 86.74,
+                "network_latency_ms": 20.68,
+                "process_count": 185
+            }, {
+                "timestamp": "2025-08-16 19:00:13",
+                "cpu_usage_percent": 26.43,
+                "memory_usage_gb": 5.11,
+                "disk_io_mbps": 220.68,
+                "network_latency_ms": 80.45,
+                "process_count": 184
+            }, {
+                "timestamp": "2025-08-16 19:05:01",
+                "cpu_usage_percent": 98.02,
+                "memory_usage_gb": 6.98,
+                "disk_io_mbps": 62.96,
+                "network_latency_ms": 45.0,
+                "process_count": 187
+            }
+        ]
+    }, {
+        "apjpnw01pepr004": [
+            {
+                "timestamp": "2025-08-16 18:59:16",
+                "cpu_usage_percent": 10.98,
+                "memory_usage_gb": 3.23,
+                "disk_io_mbps": 201.52,
+                "network_latency_ms": 91.02,
+                "process_count": 98
+            }, {
+                "timestamp": "2025-08-16 18:59:30",
+                "cpu_usage_percent": 29.39,
+                "memory_usage_gb": 6.0,
+                "disk_io_mbps": 379.61,
+                "network_latency_ms": 52.44,
+                "process_count": 149
+            }, {
+                "timestamp": "2025-08-16 19:00:00",
+                "cpu_usage_percent": 79.35,
+                "memory_usage_gb": 10.32,
+                "disk_io_mbps": 189.18,
+                "network_latency_ms": 29.05,
+                "process_count": 77
+            }, {
+                "timestamp": "2025-08-16 19:00:13",
+                "cpu_usage_percent": 87.17,
+                "memory_usage_gb": 14.49,
+                "disk_io_mbps": 90.21,
+                "network_latency_ms": 56.2,
+                "process_count": 143
+            }, {
+                "timestamp": "2025-08-16 19:05:01",
+                "cpu_usage_percent": 15.22,
+                "memory_usage_gb": 3.83,
+                "disk_io_mbps": 136.24,
+                "network_latency_ms": 49.14,
+                "process_count": 181
+            }
+        ]
+    }
+]

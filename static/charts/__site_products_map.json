@@ -1,0 +1,362 @@
+[
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerEdge"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerScale"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "MinIO"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp ONTAP"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp SolidFire"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp StorageGRID"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Pure FlashBlade"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Qumulo"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "VAST Data"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Dell PowerEdge"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Dell PowerScale"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "MinIO"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp ONTAP"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp SolidFire"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp StorageGRID"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Pure FlashBlade"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Qumulo"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "VAST Data"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerEdge"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerScale"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "MinIO"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp ONTAP"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp SolidFire"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp StorageGRID"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Pure FlashBlade"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Qumulo"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "VAST Data"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerEdge"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerScale"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "MinIO"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp ONTAP"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp SolidFire"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp StorageGRID"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Pure FlashBlade"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Qumulo"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "VAST Data"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerEdge"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerScale"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "MinIO"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp ONTAP"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp SolidFire"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp StorageGRID"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Pure FlashBlade"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Qumulo"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "VAST Data"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerEdge"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerScale"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "MinIO"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp ONTAP"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp SolidFire"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp StorageGRID"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Pure FlashBlade"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Qumulo"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "VAST Data"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerEdge"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerScale"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "MinIO"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp ONTAP"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp SolidFire"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp StorageGRID"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Pure FlashBlade"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Qumulo"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "VAST Data"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerEdge"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerScale"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "MinIO"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp ONTAP"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp SolidFire"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp StorageGRID"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Pure FlashBlade"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Qumulo"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "VAST Data"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerEdge"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerScale"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "MinIO"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp ONTAP"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp SolidFire"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp StorageGRID"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Pure FlashBlade"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Qumulo"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "VAST Data"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerEdge"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerScale"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "MinIO"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp ONTAP"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp SolidFire"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp StorageGRID"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Pure FlashBlade"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Qumulo"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "VAST Data"
+    }
+]

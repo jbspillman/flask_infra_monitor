@@ -8,6 +8,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.idea/
+.venv/
 build/
 develop-eggs/
 dist/
@@ -137,6 +139,7 @@ celerybeat.pid
 # Environments
 .env
 .envrc
+.idea
 .venv
 env/
 venv/
@@ -205,3 +208,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+/.idea/

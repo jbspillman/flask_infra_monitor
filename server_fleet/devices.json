@@ -1,0 +1,2162 @@
+[
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausne01pspr001"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausne01pspr002"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausne01pspr003"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausne01pspr004"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausne01pepr001"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausne01pepr002"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausne01pepr003"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausne01pepr004"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausne01sfpr001"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausne01sfpr002"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausne01sfpr003"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausne01sfpr004"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausne01otpr001"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausne01otpr002"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausne01otpr003"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausne01otpr004"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausne01sgpr001"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausne01sgpr002"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausne01sgpr003"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausne01sgpr004"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausne01vdpr001"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausne01vdpr002"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausne01vdpr003"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausne01vdpr004"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausne01pfpr001"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausne01pfpr002"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausne01pfpr003"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausne01pfpr004"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausne01qupr001"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausne01qupr002"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausne01qupr003"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausne01qupr004"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausne01mipr001"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausne01mipr002"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausne01mipr003"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausne01mipr004"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausne02pspr001"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausne02pspr002"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausne02pspr003"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausne02pspr004"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausne02pepr001"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausne02pepr002"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausne02pepr003"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausne02pepr004"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausne02sfpr001"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausne02sfpr002"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausne02sfpr003"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausne02sfpr004"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausne02otpr001"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausne02otpr002"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausne02otpr003"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausne02otpr004"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausne02sgpr001"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausne02sgpr002"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausne02sgpr003"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausne02sgpr004"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausne02vdpr001"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausne02vdpr002"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausne02vdpr003"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausne02vdpr004"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausne02pfpr001"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausne02pfpr002"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausne02pfpr003"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausne02pfpr004"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausne02qupr001"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausne02qupr002"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausne02qupr003"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausne02qupr004"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausne02mipr001"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausne02mipr002"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausne02mipr003"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausne02mipr004"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausnw01pspr001"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausnw01pspr002"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausnw01pspr003"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausnw01pspr004"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausnw01pepr001"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausnw01pepr002"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausnw01pepr003"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausnw01pepr004"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausnw01sfpr001"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausnw01sfpr002"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausnw01sfpr003"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausnw01sfpr004"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausnw01otpr001"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausnw01otpr002"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausnw01otpr003"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausnw01otpr004"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausnw01sgpr001"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausnw01sgpr002"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausnw01sgpr003"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausnw01sgpr004"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausnw01vdpr001"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausnw01vdpr002"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausnw01vdpr003"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausnw01vdpr004"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausnw01pfpr001"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausnw01pfpr002"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausnw01pfpr003"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausnw01pfpr004"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausnw01qupr001"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausnw01qupr002"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausnw01qupr003"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausnw01qupr004"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausnw01mipr001"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausnw01mipr002"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausnw01mipr003"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausnw01mipr004"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausnw02pspr001"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausnw02pspr002"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausnw02pspr003"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "nausnw02pspr004"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausnw02pepr001"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausnw02pepr002"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausnw02pepr003"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "nausnw02pepr004"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausnw02sfpr001"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausnw02sfpr002"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausnw02sfpr003"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "nausnw02sfpr004"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausnw02otpr001"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausnw02otpr002"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausnw02otpr003"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "nausnw02otpr004"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausnw02sgpr001"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausnw02sgpr002"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausnw02sgpr003"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "nausnw02sgpr004"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausnw02vdpr001"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausnw02vdpr002"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausnw02vdpr003"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "nausnw02vdpr004"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausnw02pfpr001"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausnw02pfpr002"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausnw02pfpr003"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "nausnw02pfpr004"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausnw02qupr001"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausnw02qupr002"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausnw02qupr003"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "nausnw02qupr004"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausnw02mipr001"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausnw02mipr002"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausnw02mipr003"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "nausnw02mipr004"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "emukne01pspr001"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "emukne01pspr002"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "emukne01pspr003"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "emukne01pspr004"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "emukne01pepr001"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "emukne01pepr002"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "emukne01pepr003"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "emukne01pepr004"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "emukne01sfpr001"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "emukne01sfpr002"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "emukne01sfpr003"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "emukne01sfpr004"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "emukne01otpr001"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "emukne01otpr002"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "emukne01otpr003"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "emukne01otpr004"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "emukne01sgpr001"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "emukne01sgpr002"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "emukne01sgpr003"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "emukne01sgpr004"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "emukne01vdpr001"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "emukne01vdpr002"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "emukne01vdpr003"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "emukne01vdpr004"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "emukne01pfpr001"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "emukne01pfpr002"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "emukne01pfpr003"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "emukne01pfpr004"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "emukne01qupr001"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "emukne01qupr002"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "emukne01qupr003"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "emukne01qupr004"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "emukne01mipr001"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "emukne01mipr002"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "emukne01mipr003"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "emukne01mipr004"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "emukne02pspr001"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "emukne02pspr002"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "emukne02pspr003"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "emukne02pspr004"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "emukne02pepr001"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "emukne02pepr002"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "emukne02pepr003"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "emukne02pepr004"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "emukne02sfpr001"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "emukne02sfpr002"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "emukne02sfpr003"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "emukne02sfpr004"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "emukne02otpr001"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "emukne02otpr002"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "emukne02otpr003"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "emukne02otpr004"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "emukne02sgpr001"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "emukne02sgpr002"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "emukne02sgpr003"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "emukne02sgpr004"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "emukne02vdpr001"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "emukne02vdpr002"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "emukne02vdpr003"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "emukne02vdpr004"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "emukne02pfpr001"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "emukne02pfpr002"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "emukne02pfpr003"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "emukne02pfpr004"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "emukne02qupr001"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "emukne02qupr002"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "emukne02qupr003"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "emukne02qupr004"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "emukne02mipr001"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "emukne02mipr002"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "emukne02mipr003"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "emukne02mipr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apsgnw01pspr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apsgnw01pspr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apsgnw01pspr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apsgnw01pspr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apsgnw01pepr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apsgnw01pepr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apsgnw01pepr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apsgnw01pepr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apsgnw01sfpr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apsgnw01sfpr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apsgnw01sfpr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apsgnw01sfpr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apsgnw01otpr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apsgnw01otpr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apsgnw01otpr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apsgnw01otpr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apsgnw01sgpr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apsgnw01sgpr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apsgnw01sgpr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apsgnw01sgpr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apsgnw01vdpr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apsgnw01vdpr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apsgnw01vdpr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apsgnw01vdpr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apsgnw01pfpr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apsgnw01pfpr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apsgnw01pfpr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apsgnw01pfpr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apsgnw01qupr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apsgnw01qupr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apsgnw01qupr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apsgnw01qupr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apsgnw01mipr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apsgnw01mipr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apsgnw01mipr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apsgnw01mipr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apsgnw02pspr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apsgnw02pspr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apsgnw02pspr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apsgnw02pspr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apsgnw02pepr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apsgnw02pepr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apsgnw02pepr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apsgnw02pepr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apsgnw02sfpr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apsgnw02sfpr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apsgnw02sfpr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apsgnw02sfpr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apsgnw02otpr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apsgnw02otpr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apsgnw02otpr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apsgnw02otpr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apsgnw02sgpr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apsgnw02sgpr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apsgnw02sgpr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apsgnw02sgpr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apsgnw02vdpr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apsgnw02vdpr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apsgnw02vdpr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apsgnw02vdpr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apsgnw02pfpr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apsgnw02pfpr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apsgnw02pfpr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apsgnw02pfpr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apsgnw02qupr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apsgnw02qupr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apsgnw02qupr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apsgnw02qupr004"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apsgnw02mipr001"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apsgnw02mipr002"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apsgnw02mipr003"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apsgnw02mipr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apjpnw01pspr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apjpnw01pspr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apjpnw01pspr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apjpnw01pspr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apjpnw01pepr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apjpnw01pepr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apjpnw01pepr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apjpnw01pepr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apjpnw01sfpr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apjpnw01sfpr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apjpnw01sfpr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apjpnw01sfpr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apjpnw01otpr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apjpnw01otpr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apjpnw01otpr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apjpnw01otpr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apjpnw01sgpr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apjpnw01sgpr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apjpnw01sgpr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apjpnw01sgpr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apjpnw01vdpr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apjpnw01vdpr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apjpnw01vdpr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apjpnw01vdpr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apjpnw01pfpr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apjpnw01pfpr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apjpnw01pfpr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apjpnw01pfpr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apjpnw01qupr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apjpnw01qupr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apjpnw01qupr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apjpnw01qupr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apjpnw01mipr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apjpnw01mipr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apjpnw01mipr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apjpnw01mipr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apjpnw02pspr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apjpnw02pspr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apjpnw02pspr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Dell PowerScale",
+        "environment": "pr",
+        "device_name": "apjpnw02pspr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apjpnw02pepr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apjpnw02pepr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apjpnw02pepr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "environment": "pr",
+        "device_name": "apjpnw02pepr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apjpnw02sfpr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apjpnw02sfpr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apjpnw02sfpr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "environment": "pr",
+        "device_name": "apjpnw02sfpr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apjpnw02otpr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apjpnw02otpr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apjpnw02otpr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "environment": "pr",
+        "device_name": "apjpnw02otpr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apjpnw02sgpr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apjpnw02sgpr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apjpnw02sgpr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "environment": "pr",
+        "device_name": "apjpnw02sgpr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apjpnw02vdpr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apjpnw02vdpr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apjpnw02vdpr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "VAST Data",
+        "environment": "pr",
+        "device_name": "apjpnw02vdpr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apjpnw02pfpr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apjpnw02pfpr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apjpnw02pfpr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "environment": "pr",
+        "device_name": "apjpnw02pfpr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apjpnw02qupr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apjpnw02qupr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apjpnw02qupr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "Qumulo",
+        "environment": "pr",
+        "device_name": "apjpnw02qupr004"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apjpnw02mipr001"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apjpnw02mipr002"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apjpnw02mipr003"
+    },
+    {
+        "site_name": "ap-jp-north-west-02",
+        "product_name": "MinIO",
+        "environment": "pr",
+        "device_name": "apjpnw02mipr004"
+    }
+]

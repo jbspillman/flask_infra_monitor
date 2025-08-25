@@ -1,0 +1,77 @@
+[
+    {
+        "productId": "PROD001",
+        "name": "Laptop Pro X15",
+        "category": "Electronics",
+        "price": 1299.99,
+        "inStock": true,
+        "specifications": {
+            "processor": "Intel Core i7",
+            "ramGB": 16,
+            "storageGB": 512,
+            "screenSizeInch": 15.6
+        },
+        "reviews": [
+            {"userId": "user123", "rating": 5, "comment": "Excellent performance for gaming and work."},
+            {"userId": "user456", "rating": 4, "comment": "Good value, but battery life could be better."}
+        ]
+    },
+    {
+        "productId": "PROD002",
+        "name": "Wireless Headphones Z2",
+        "category": "Audio",
+        "price": 199.99,
+        "inStock": true,
+        "specifications": {
+            "type": "Over-ear",
+            "connectivity": "Bluetooth 5.0",
+            "noiseCancellation": true
+        },
+        "reviews": [
+            {"userId": "user789", "rating": 5, "comment": "Amazing sound quality and comfortable fit."},
+            {"userId": "user101", "rating": 4, "comment": "Noise cancellation works well, but a bit pricey."}
+        ]
+    },
+    {
+        "productId": "PROD003",
+        "name": "Smartwatch Chronos",
+        "category": "Wearables",
+        "price": 249.00,
+        "inStock": false,
+        "specifications": {
+            "os": "WearOS",
+            "features": ["Heart Rate Monitor", "GPS", "NFC"]
+        },
+        "reviews": []
+    },
+    {
+        "productId": "PROD004",
+        "name": "Ergonomic Office Chair",
+        "category": "Furniture",
+        "price": 350.50,
+        "inStock": true,
+        "specifications": {
+            "material": "Mesh",
+            "adjustments": ["Height", "Lumbar Support", "Armrests"]
+        },
+        "reviews": [
+            {"userId": "user222", "rating": 5, "comment": "Very comfortable for long working hours."},
+            {"userId": "user333", "rating": 3, "comment": "Assembly was a bit challenging."}
+        ]
+    },
+    {
+        "productId": "PROD005",
+        "name": "4K UHD Smart TV",
+        "category": "Electronics",
+        "price": 799.00,
+        "inStock": true,
+        "specifications": {
+            "sizeInch": 55,
+            "resolution": "3840x2160",
+            "smartFeatures": ["Netflix", "YouTube", "Voice Control"]
+        },
+        "reviews": [
+            {"userId": "user444", "rating": 4, "comment": "Great picture quality, but smart features can be slow sometimes."}
+        ]
+    }
+]

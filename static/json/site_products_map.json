@@ -1,0 +1,1010 @@
+[
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-north-west-01__Dell PowerEdge.json",
+        "web_file": "/charts/ap-jp-north-west-01__Dell PowerEdge.json",
+        "htm_file": "/charts/ap-jp-north-west-01__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-north-west-01__Dell PowerScale.json",
+        "web_file": "/charts/ap-jp-north-west-01__Dell PowerScale.json",
+        "htm_file": "/charts/ap-jp-north-west-01__Dell PowerScale.html"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-north-west-01__MinIO.json",
+        "web_file": "/charts/ap-jp-north-west-01__MinIO.json",
+        "htm_file": "/charts/ap-jp-north-west-01__MinIO.html"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-north-west-01__NetApp ONTAP.json",
+        "web_file": "/charts/ap-jp-north-west-01__NetApp ONTAP.json",
+        "htm_file": "/charts/ap-jp-north-west-01__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-north-west-01__NetApp SolidFire.json",
+        "web_file": "/charts/ap-jp-north-west-01__NetApp SolidFire.json",
+        "htm_file": "/charts/ap-jp-north-west-01__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-north-west-01__NetApp StorageGRID.json",
+        "web_file": "/charts/ap-jp-north-west-01__NetApp StorageGRID.json",
+        "htm_file": "/charts/ap-jp-north-west-01__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-north-west-01__Pure FlashBlade.json",
+        "web_file": "/charts/ap-jp-north-west-01__Pure FlashBlade.json",
+        "htm_file": "/charts/ap-jp-north-west-01__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-north-west-01__Qumulo.json",
+        "web_file": "/charts/ap-jp-north-west-01__Qumulo.json",
+        "htm_file": "/charts/ap-jp-north-west-01__Qumulo.html"
+    },
+    {
+        "site_name": "ap-jp-north-west-01",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-north-west-01__VAST Data.json",
+        "web_file": "/charts/ap-jp-north-west-01__VAST Data.json",
+        "htm_file": "/charts/ap-jp-north-west-01__VAST Data.html"
+    },
+    {
+        "site_name": "ap-jp-south-west-01",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-south-west-01__Dell PowerEdge.json",
+        "web_file": "/charts/ap-jp-south-west-01__Dell PowerEdge.json",
+        "htm_file": "/charts/ap-jp-south-west-01__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "ap-jp-south-west-01",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-south-west-01__Dell PowerScale.json",
+        "web_file": "/charts/ap-jp-south-west-01__Dell PowerScale.json",
+        "htm_file": "/charts/ap-jp-south-west-01__Dell PowerScale.html"
+    },
+    {
+        "site_name": "ap-jp-south-west-01",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-south-west-01__MinIO.json",
+        "web_file": "/charts/ap-jp-south-west-01__MinIO.json",
+        "htm_file": "/charts/ap-jp-south-west-01__MinIO.html"
+    },
+    {
+        "site_name": "ap-jp-south-west-01",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-south-west-01__NetApp ONTAP.json",
+        "web_file": "/charts/ap-jp-south-west-01__NetApp ONTAP.json",
+        "htm_file": "/charts/ap-jp-south-west-01__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "ap-jp-south-west-01",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-south-west-01__NetApp SolidFire.json",
+        "web_file": "/charts/ap-jp-south-west-01__NetApp SolidFire.json",
+        "htm_file": "/charts/ap-jp-south-west-01__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "ap-jp-south-west-01",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-south-west-01__NetApp StorageGRID.json",
+        "web_file": "/charts/ap-jp-south-west-01__NetApp StorageGRID.json",
+        "htm_file": "/charts/ap-jp-south-west-01__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "ap-jp-south-west-01",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-south-west-01__Pure FlashBlade.json",
+        "web_file": "/charts/ap-jp-south-west-01__Pure FlashBlade.json",
+        "htm_file": "/charts/ap-jp-south-west-01__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "ap-jp-south-west-01",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-south-west-01__Qumulo.json",
+        "web_file": "/charts/ap-jp-south-west-01__Qumulo.json",
+        "htm_file": "/charts/ap-jp-south-west-01__Qumulo.html"
+    },
+    {
+        "site_name": "ap-jp-south-west-01",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-jp-south-west-01__VAST Data.json",
+        "web_file": "/charts/ap-jp-south-west-01__VAST Data.json",
+        "htm_file": "/charts/ap-jp-south-west-01__VAST Data.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-01__Dell PowerEdge.json",
+        "web_file": "/charts/ap-sg-north-west-01__Dell PowerEdge.json",
+        "htm_file": "/charts/ap-sg-north-west-01__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-01__Dell PowerScale.json",
+        "web_file": "/charts/ap-sg-north-west-01__Dell PowerScale.json",
+        "htm_file": "/charts/ap-sg-north-west-01__Dell PowerScale.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-01__MinIO.json",
+        "web_file": "/charts/ap-sg-north-west-01__MinIO.json",
+        "htm_file": "/charts/ap-sg-north-west-01__MinIO.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-01__NetApp ONTAP.json",
+        "web_file": "/charts/ap-sg-north-west-01__NetApp ONTAP.json",
+        "htm_file": "/charts/ap-sg-north-west-01__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-01__NetApp SolidFire.json",
+        "web_file": "/charts/ap-sg-north-west-01__NetApp SolidFire.json",
+        "htm_file": "/charts/ap-sg-north-west-01__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-01__NetApp StorageGRID.json",
+        "web_file": "/charts/ap-sg-north-west-01__NetApp StorageGRID.json",
+        "htm_file": "/charts/ap-sg-north-west-01__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-01__Pure FlashBlade.json",
+        "web_file": "/charts/ap-sg-north-west-01__Pure FlashBlade.json",
+        "htm_file": "/charts/ap-sg-north-west-01__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-01__Qumulo.json",
+        "web_file": "/charts/ap-sg-north-west-01__Qumulo.json",
+        "htm_file": "/charts/ap-sg-north-west-01__Qumulo.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-01",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-01__VAST Data.json",
+        "web_file": "/charts/ap-sg-north-west-01__VAST Data.json",
+        "htm_file": "/charts/ap-sg-north-west-01__VAST Data.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-02__Dell PowerEdge.json",
+        "web_file": "/charts/ap-sg-north-west-02__Dell PowerEdge.json",
+        "htm_file": "/charts/ap-sg-north-west-02__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-02__Dell PowerScale.json",
+        "web_file": "/charts/ap-sg-north-west-02__Dell PowerScale.json",
+        "htm_file": "/charts/ap-sg-north-west-02__Dell PowerScale.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-02__MinIO.json",
+        "web_file": "/charts/ap-sg-north-west-02__MinIO.json",
+        "htm_file": "/charts/ap-sg-north-west-02__MinIO.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-02__NetApp ONTAP.json",
+        "web_file": "/charts/ap-sg-north-west-02__NetApp ONTAP.json",
+        "htm_file": "/charts/ap-sg-north-west-02__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-02__NetApp SolidFire.json",
+        "web_file": "/charts/ap-sg-north-west-02__NetApp SolidFire.json",
+        "htm_file": "/charts/ap-sg-north-west-02__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-02__NetApp StorageGRID.json",
+        "web_file": "/charts/ap-sg-north-west-02__NetApp StorageGRID.json",
+        "htm_file": "/charts/ap-sg-north-west-02__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-02__Pure FlashBlade.json",
+        "web_file": "/charts/ap-sg-north-west-02__Pure FlashBlade.json",
+        "htm_file": "/charts/ap-sg-north-west-02__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-02__Qumulo.json",
+        "web_file": "/charts/ap-sg-north-west-02__Qumulo.json",
+        "htm_file": "/charts/ap-sg-north-west-02__Qumulo.html"
+    },
+    {
+        "site_name": "ap-sg-north-west-02",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/ap-sg-north-west-02__VAST Data.json",
+        "web_file": "/charts/ap-sg-north-west-02__VAST Data.json",
+        "htm_file": "/charts/ap-sg-north-west-02__VAST Data.html"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-01__Dell PowerEdge.json",
+        "web_file": "/charts/em-uk-north-east-01__Dell PowerEdge.json",
+        "htm_file": "/charts/em-uk-north-east-01__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-01__Dell PowerScale.json",
+        "web_file": "/charts/em-uk-north-east-01__Dell PowerScale.json",
+        "htm_file": "/charts/em-uk-north-east-01__Dell PowerScale.html"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-01__MinIO.json",
+        "web_file": "/charts/em-uk-north-east-01__MinIO.json",
+        "htm_file": "/charts/em-uk-north-east-01__MinIO.html"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-01__NetApp ONTAP.json",
+        "web_file": "/charts/em-uk-north-east-01__NetApp ONTAP.json",
+        "htm_file": "/charts/em-uk-north-east-01__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-01__NetApp SolidFire.json",
+        "web_file": "/charts/em-uk-north-east-01__NetApp SolidFire.json",
+        "htm_file": "/charts/em-uk-north-east-01__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-01__NetApp StorageGRID.json",
+        "web_file": "/charts/em-uk-north-east-01__NetApp StorageGRID.json",
+        "htm_file": "/charts/em-uk-north-east-01__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-01__Pure FlashBlade.json",
+        "web_file": "/charts/em-uk-north-east-01__Pure FlashBlade.json",
+        "htm_file": "/charts/em-uk-north-east-01__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-01__Qumulo.json",
+        "web_file": "/charts/em-uk-north-east-01__Qumulo.json",
+        "htm_file": "/charts/em-uk-north-east-01__Qumulo.html"
+    },
+    {
+        "site_name": "em-uk-north-east-01",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-01__VAST Data.json",
+        "web_file": "/charts/em-uk-north-east-01__VAST Data.json",
+        "htm_file": "/charts/em-uk-north-east-01__VAST Data.html"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-02__Dell PowerEdge.json",
+        "web_file": "/charts/em-uk-north-east-02__Dell PowerEdge.json",
+        "htm_file": "/charts/em-uk-north-east-02__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-02__Dell PowerScale.json",
+        "web_file": "/charts/em-uk-north-east-02__Dell PowerScale.json",
+        "htm_file": "/charts/em-uk-north-east-02__Dell PowerScale.html"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-02__MinIO.json",
+        "web_file": "/charts/em-uk-north-east-02__MinIO.json",
+        "htm_file": "/charts/em-uk-north-east-02__MinIO.html"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-02__NetApp ONTAP.json",
+        "web_file": "/charts/em-uk-north-east-02__NetApp ONTAP.json",
+        "htm_file": "/charts/em-uk-north-east-02__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-02__NetApp SolidFire.json",
+        "web_file": "/charts/em-uk-north-east-02__NetApp SolidFire.json",
+        "htm_file": "/charts/em-uk-north-east-02__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-02__NetApp StorageGRID.json",
+        "web_file": "/charts/em-uk-north-east-02__NetApp StorageGRID.json",
+        "htm_file": "/charts/em-uk-north-east-02__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-02__Pure FlashBlade.json",
+        "web_file": "/charts/em-uk-north-east-02__Pure FlashBlade.json",
+        "htm_file": "/charts/em-uk-north-east-02__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-02__Qumulo.json",
+        "web_file": "/charts/em-uk-north-east-02__Qumulo.json",
+        "htm_file": "/charts/em-uk-north-east-02__Qumulo.html"
+    },
+    {
+        "site_name": "em-uk-north-east-02",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-north-east-02__VAST Data.json",
+        "web_file": "/charts/em-uk-north-east-02__VAST Data.json",
+        "htm_file": "/charts/em-uk-north-east-02__VAST Data.html"
+    },
+    {
+        "site_name": "em-uk-south-west-01",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-01__Dell PowerEdge.json",
+        "web_file": "/charts/em-uk-south-west-01__Dell PowerEdge.json",
+        "htm_file": "/charts/em-uk-south-west-01__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "em-uk-south-west-01",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-01__Dell PowerScale.json",
+        "web_file": "/charts/em-uk-south-west-01__Dell PowerScale.json",
+        "htm_file": "/charts/em-uk-south-west-01__Dell PowerScale.html"
+    },
+    {
+        "site_name": "em-uk-south-west-01",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-01__MinIO.json",
+        "web_file": "/charts/em-uk-south-west-01__MinIO.json",
+        "htm_file": "/charts/em-uk-south-west-01__MinIO.html"
+    },
+    {
+        "site_name": "em-uk-south-west-01",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-01__NetApp ONTAP.json",
+        "web_file": "/charts/em-uk-south-west-01__NetApp ONTAP.json",
+        "htm_file": "/charts/em-uk-south-west-01__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "em-uk-south-west-01",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-01__NetApp SolidFire.json",
+        "web_file": "/charts/em-uk-south-west-01__NetApp SolidFire.json",
+        "htm_file": "/charts/em-uk-south-west-01__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "em-uk-south-west-01",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-01__NetApp StorageGRID.json",
+        "web_file": "/charts/em-uk-south-west-01__NetApp StorageGRID.json",
+        "htm_file": "/charts/em-uk-south-west-01__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "em-uk-south-west-01",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-01__Pure FlashBlade.json",
+        "web_file": "/charts/em-uk-south-west-01__Pure FlashBlade.json",
+        "htm_file": "/charts/em-uk-south-west-01__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "em-uk-south-west-01",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-01__Qumulo.json",
+        "web_file": "/charts/em-uk-south-west-01__Qumulo.json",
+        "htm_file": "/charts/em-uk-south-west-01__Qumulo.html"
+    },
+    {
+        "site_name": "em-uk-south-west-01",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-01__VAST Data.json",
+        "web_file": "/charts/em-uk-south-west-01__VAST Data.json",
+        "htm_file": "/charts/em-uk-south-west-01__VAST Data.html"
+    },
+    {
+        "site_name": "em-uk-south-west-02",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-02__Dell PowerEdge.json",
+        "web_file": "/charts/em-uk-south-west-02__Dell PowerEdge.json",
+        "htm_file": "/charts/em-uk-south-west-02__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "em-uk-south-west-02",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-02__Dell PowerScale.json",
+        "web_file": "/charts/em-uk-south-west-02__Dell PowerScale.json",
+        "htm_file": "/charts/em-uk-south-west-02__Dell PowerScale.html"
+    },
+    {
+        "site_name": "em-uk-south-west-02",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-02__MinIO.json",
+        "web_file": "/charts/em-uk-south-west-02__MinIO.json",
+        "htm_file": "/charts/em-uk-south-west-02__MinIO.html"
+    },
+    {
+        "site_name": "em-uk-south-west-02",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-02__NetApp ONTAP.json",
+        "web_file": "/charts/em-uk-south-west-02__NetApp ONTAP.json",
+        "htm_file": "/charts/em-uk-south-west-02__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "em-uk-south-west-02",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-02__NetApp SolidFire.json",
+        "web_file": "/charts/em-uk-south-west-02__NetApp SolidFire.json",
+        "htm_file": "/charts/em-uk-south-west-02__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "em-uk-south-west-02",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-02__NetApp StorageGRID.json",
+        "web_file": "/charts/em-uk-south-west-02__NetApp StorageGRID.json",
+        "htm_file": "/charts/em-uk-south-west-02__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "em-uk-south-west-02",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-02__Pure FlashBlade.json",
+        "web_file": "/charts/em-uk-south-west-02__Pure FlashBlade.json",
+        "htm_file": "/charts/em-uk-south-west-02__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "em-uk-south-west-02",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-02__Qumulo.json",
+        "web_file": "/charts/em-uk-south-west-02__Qumulo.json",
+        "htm_file": "/charts/em-uk-south-west-02__Qumulo.html"
+    },
+    {
+        "site_name": "em-uk-south-west-02",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/em-uk-south-west-02__VAST Data.json",
+        "web_file": "/charts/em-uk-south-west-02__VAST Data.json",
+        "htm_file": "/charts/em-uk-south-west-02__VAST Data.html"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-01__Dell PowerEdge.json",
+        "web_file": "/charts/na-us-north-east-01__Dell PowerEdge.json",
+        "htm_file": "/charts/na-us-north-east-01__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-01__Dell PowerScale.json",
+        "web_file": "/charts/na-us-north-east-01__Dell PowerScale.json",
+        "htm_file": "/charts/na-us-north-east-01__Dell PowerScale.html"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-01__MinIO.json",
+        "web_file": "/charts/na-us-north-east-01__MinIO.json",
+        "htm_file": "/charts/na-us-north-east-01__MinIO.html"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-01__NetApp ONTAP.json",
+        "web_file": "/charts/na-us-north-east-01__NetApp ONTAP.json",
+        "htm_file": "/charts/na-us-north-east-01__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-01__NetApp SolidFire.json",
+        "web_file": "/charts/na-us-north-east-01__NetApp SolidFire.json",
+        "htm_file": "/charts/na-us-north-east-01__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-01__NetApp StorageGRID.json",
+        "web_file": "/charts/na-us-north-east-01__NetApp StorageGRID.json",
+        "htm_file": "/charts/na-us-north-east-01__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-01__Pure FlashBlade.json",
+        "web_file": "/charts/na-us-north-east-01__Pure FlashBlade.json",
+        "htm_file": "/charts/na-us-north-east-01__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-01__Qumulo.json",
+        "web_file": "/charts/na-us-north-east-01__Qumulo.json",
+        "htm_file": "/charts/na-us-north-east-01__Qumulo.html"
+    },
+    {
+        "site_name": "na-us-north-east-01",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-01__VAST Data.json",
+        "web_file": "/charts/na-us-north-east-01__VAST Data.json",
+        "htm_file": "/charts/na-us-north-east-01__VAST Data.html"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-02__Dell PowerEdge.json",
+        "web_file": "/charts/na-us-north-east-02__Dell PowerEdge.json",
+        "htm_file": "/charts/na-us-north-east-02__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-02__Dell PowerScale.json",
+        "web_file": "/charts/na-us-north-east-02__Dell PowerScale.json",
+        "htm_file": "/charts/na-us-north-east-02__Dell PowerScale.html"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-02__MinIO.json",
+        "web_file": "/charts/na-us-north-east-02__MinIO.json",
+        "htm_file": "/charts/na-us-north-east-02__MinIO.html"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-02__NetApp ONTAP.json",
+        "web_file": "/charts/na-us-north-east-02__NetApp ONTAP.json",
+        "htm_file": "/charts/na-us-north-east-02__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-02__NetApp SolidFire.json",
+        "web_file": "/charts/na-us-north-east-02__NetApp SolidFire.json",
+        "htm_file": "/charts/na-us-north-east-02__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-02__NetApp StorageGRID.json",
+        "web_file": "/charts/na-us-north-east-02__NetApp StorageGRID.json",
+        "htm_file": "/charts/na-us-north-east-02__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-02__Pure FlashBlade.json",
+        "web_file": "/charts/na-us-north-east-02__Pure FlashBlade.json",
+        "htm_file": "/charts/na-us-north-east-02__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-02__Qumulo.json",
+        "web_file": "/charts/na-us-north-east-02__Qumulo.json",
+        "htm_file": "/charts/na-us-north-east-02__Qumulo.html"
+    },
+    {
+        "site_name": "na-us-north-east-02",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-east-02__VAST Data.json",
+        "web_file": "/charts/na-us-north-east-02__VAST Data.json",
+        "htm_file": "/charts/na-us-north-east-02__VAST Data.html"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-01__Dell PowerEdge.json",
+        "web_file": "/charts/na-us-north-west-01__Dell PowerEdge.json",
+        "htm_file": "/charts/na-us-north-west-01__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-01__Dell PowerScale.json",
+        "web_file": "/charts/na-us-north-west-01__Dell PowerScale.json",
+        "htm_file": "/charts/na-us-north-west-01__Dell PowerScale.html"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-01__MinIO.json",
+        "web_file": "/charts/na-us-north-west-01__MinIO.json",
+        "htm_file": "/charts/na-us-north-west-01__MinIO.html"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-01__NetApp ONTAP.json",
+        "web_file": "/charts/na-us-north-west-01__NetApp ONTAP.json",
+        "htm_file": "/charts/na-us-north-west-01__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-01__NetApp SolidFire.json",
+        "web_file": "/charts/na-us-north-west-01__NetApp SolidFire.json",
+        "htm_file": "/charts/na-us-north-west-01__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-01__NetApp StorageGRID.json",
+        "web_file": "/charts/na-us-north-west-01__NetApp StorageGRID.json",
+        "htm_file": "/charts/na-us-north-west-01__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-01__Pure FlashBlade.json",
+        "web_file": "/charts/na-us-north-west-01__Pure FlashBlade.json",
+        "htm_file": "/charts/na-us-north-west-01__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-01__Qumulo.json",
+        "web_file": "/charts/na-us-north-west-01__Qumulo.json",
+        "htm_file": "/charts/na-us-north-west-01__Qumulo.html"
+    },
+    {
+        "site_name": "na-us-north-west-01",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-01__VAST Data.json",
+        "web_file": "/charts/na-us-north-west-01__VAST Data.json",
+        "htm_file": "/charts/na-us-north-west-01__VAST Data.html"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-02__Dell PowerEdge.json",
+        "web_file": "/charts/na-us-north-west-02__Dell PowerEdge.json",
+        "htm_file": "/charts/na-us-north-west-02__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-02__Dell PowerScale.json",
+        "web_file": "/charts/na-us-north-west-02__Dell PowerScale.json",
+        "htm_file": "/charts/na-us-north-west-02__Dell PowerScale.html"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-02__MinIO.json",
+        "web_file": "/charts/na-us-north-west-02__MinIO.json",
+        "htm_file": "/charts/na-us-north-west-02__MinIO.html"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-02__NetApp ONTAP.json",
+        "web_file": "/charts/na-us-north-west-02__NetApp ONTAP.json",
+        "htm_file": "/charts/na-us-north-west-02__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-02__NetApp SolidFire.json",
+        "web_file": "/charts/na-us-north-west-02__NetApp SolidFire.json",
+        "htm_file": "/charts/na-us-north-west-02__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-02__NetApp StorageGRID.json",
+        "web_file": "/charts/na-us-north-west-02__NetApp StorageGRID.json",
+        "htm_file": "/charts/na-us-north-west-02__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-02__Pure FlashBlade.json",
+        "web_file": "/charts/na-us-north-west-02__Pure FlashBlade.json",
+        "htm_file": "/charts/na-us-north-west-02__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-02__Qumulo.json",
+        "web_file": "/charts/na-us-north-west-02__Qumulo.json",
+        "htm_file": "/charts/na-us-north-west-02__Qumulo.html"
+    },
+    {
+        "site_name": "na-us-north-west-02",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-north-west-02__VAST Data.json",
+        "web_file": "/charts/na-us-north-west-02__VAST Data.json",
+        "htm_file": "/charts/na-us-north-west-02__VAST Data.html"
+    },
+    {
+        "site_name": "na-us-south-east-01",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-01__Dell PowerEdge.json",
+        "web_file": "/charts/na-us-south-east-01__Dell PowerEdge.json",
+        "htm_file": "/charts/na-us-south-east-01__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "na-us-south-east-01",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-01__Dell PowerScale.json",
+        "web_file": "/charts/na-us-south-east-01__Dell PowerScale.json",
+        "htm_file": "/charts/na-us-south-east-01__Dell PowerScale.html"
+    },
+    {
+        "site_name": "na-us-south-east-01",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-01__MinIO.json",
+        "web_file": "/charts/na-us-south-east-01__MinIO.json",
+        "htm_file": "/charts/na-us-south-east-01__MinIO.html"
+    },
+    {
+        "site_name": "na-us-south-east-01",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-01__NetApp ONTAP.json",
+        "web_file": "/charts/na-us-south-east-01__NetApp ONTAP.json",
+        "htm_file": "/charts/na-us-south-east-01__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "na-us-south-east-01",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-01__NetApp SolidFire.json",
+        "web_file": "/charts/na-us-south-east-01__NetApp SolidFire.json",
+        "htm_file": "/charts/na-us-south-east-01__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "na-us-south-east-01",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-01__NetApp StorageGRID.json",
+        "web_file": "/charts/na-us-south-east-01__NetApp StorageGRID.json",
+        "htm_file": "/charts/na-us-south-east-01__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "na-us-south-east-01",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-01__Pure FlashBlade.json",
+        "web_file": "/charts/na-us-south-east-01__Pure FlashBlade.json",
+        "htm_file": "/charts/na-us-south-east-01__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "na-us-south-east-01",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-01__Qumulo.json",
+        "web_file": "/charts/na-us-south-east-01__Qumulo.json",
+        "htm_file": "/charts/na-us-south-east-01__Qumulo.html"
+    },
+    {
+        "site_name": "na-us-south-east-01",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-01__VAST Data.json",
+        "web_file": "/charts/na-us-south-east-01__VAST Data.json",
+        "htm_file": "/charts/na-us-south-east-01__VAST Data.html"
+    },
+    {
+        "site_name": "na-us-south-east-02",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-02__Dell PowerEdge.json",
+        "web_file": "/charts/na-us-south-east-02__Dell PowerEdge.json",
+        "htm_file": "/charts/na-us-south-east-02__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "na-us-south-east-02",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-02__Dell PowerScale.json",
+        "web_file": "/charts/na-us-south-east-02__Dell PowerScale.json",
+        "htm_file": "/charts/na-us-south-east-02__Dell PowerScale.html"
+    },
+    {
+        "site_name": "na-us-south-east-02",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-02__MinIO.json",
+        "web_file": "/charts/na-us-south-east-02__MinIO.json",
+        "htm_file": "/charts/na-us-south-east-02__MinIO.html"
+    },
+    {
+        "site_name": "na-us-south-east-02",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-02__NetApp ONTAP.json",
+        "web_file": "/charts/na-us-south-east-02__NetApp ONTAP.json",
+        "htm_file": "/charts/na-us-south-east-02__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "na-us-south-east-02",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-02__NetApp SolidFire.json",
+        "web_file": "/charts/na-us-south-east-02__NetApp SolidFire.json",
+        "htm_file": "/charts/na-us-south-east-02__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "na-us-south-east-02",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-02__NetApp StorageGRID.json",
+        "web_file": "/charts/na-us-south-east-02__NetApp StorageGRID.json",
+        "htm_file": "/charts/na-us-south-east-02__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "na-us-south-east-02",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-02__Pure FlashBlade.json",
+        "web_file": "/charts/na-us-south-east-02__Pure FlashBlade.json",
+        "htm_file": "/charts/na-us-south-east-02__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "na-us-south-east-02",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-02__Qumulo.json",
+        "web_file": "/charts/na-us-south-east-02__Qumulo.json",
+        "htm_file": "/charts/na-us-south-east-02__Qumulo.html"
+    },
+    {
+        "site_name": "na-us-south-east-02",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-east-02__VAST Data.json",
+        "web_file": "/charts/na-us-south-east-02__VAST Data.json",
+        "htm_file": "/charts/na-us-south-east-02__VAST Data.html"
+    },
+    {
+        "site_name": "na-us-south-west-01",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-01__Dell PowerEdge.json",
+        "web_file": "/charts/na-us-south-west-01__Dell PowerEdge.json",
+        "htm_file": "/charts/na-us-south-west-01__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "na-us-south-west-01",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-01__Dell PowerScale.json",
+        "web_file": "/charts/na-us-south-west-01__Dell PowerScale.json",
+        "htm_file": "/charts/na-us-south-west-01__Dell PowerScale.html"
+    },
+    {
+        "site_name": "na-us-south-west-01",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-01__MinIO.json",
+        "web_file": "/charts/na-us-south-west-01__MinIO.json",
+        "htm_file": "/charts/na-us-south-west-01__MinIO.html"
+    },
+    {
+        "site_name": "na-us-south-west-01",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-01__NetApp ONTAP.json",
+        "web_file": "/charts/na-us-south-west-01__NetApp ONTAP.json",
+        "htm_file": "/charts/na-us-south-west-01__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "na-us-south-west-01",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-01__NetApp SolidFire.json",
+        "web_file": "/charts/na-us-south-west-01__NetApp SolidFire.json",
+        "htm_file": "/charts/na-us-south-west-01__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "na-us-south-west-01",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-01__NetApp StorageGRID.json",
+        "web_file": "/charts/na-us-south-west-01__NetApp StorageGRID.json",
+        "htm_file": "/charts/na-us-south-west-01__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "na-us-south-west-01",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-01__Pure FlashBlade.json",
+        "web_file": "/charts/na-us-south-west-01__Pure FlashBlade.json",
+        "htm_file": "/charts/na-us-south-west-01__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "na-us-south-west-01",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-01__Qumulo.json",
+        "web_file": "/charts/na-us-south-west-01__Qumulo.json",
+        "htm_file": "/charts/na-us-south-west-01__Qumulo.html"
+    },
+    {
+        "site_name": "na-us-south-west-01",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-01__VAST Data.json",
+        "web_file": "/charts/na-us-south-west-01__VAST Data.json",
+        "htm_file": "/charts/na-us-south-west-01__VAST Data.html"
+    },
+    {
+        "site_name": "na-us-south-west-02",
+        "product_name": "Dell PowerEdge",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-02__Dell PowerEdge.json",
+        "web_file": "/charts/na-us-south-west-02__Dell PowerEdge.json",
+        "htm_file": "/charts/na-us-south-west-02__Dell PowerEdge.html"
+    },
+    {
+        "site_name": "na-us-south-west-02",
+        "product_name": "Dell PowerScale",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-02__Dell PowerScale.json",
+        "web_file": "/charts/na-us-south-west-02__Dell PowerScale.json",
+        "htm_file": "/charts/na-us-south-west-02__Dell PowerScale.html"
+    },
+    {
+        "site_name": "na-us-south-west-02",
+        "product_name": "MinIO",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-02__MinIO.json",
+        "web_file": "/charts/na-us-south-west-02__MinIO.json",
+        "htm_file": "/charts/na-us-south-west-02__MinIO.html"
+    },
+    {
+        "site_name": "na-us-south-west-02",
+        "product_name": "NetApp ONTAP",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-02__NetApp ONTAP.json",
+        "web_file": "/charts/na-us-south-west-02__NetApp ONTAP.json",
+        "htm_file": "/charts/na-us-south-west-02__NetApp ONTAP.html"
+    },
+    {
+        "site_name": "na-us-south-west-02",
+        "product_name": "NetApp SolidFire",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-02__NetApp SolidFire.json",
+        "web_file": "/charts/na-us-south-west-02__NetApp SolidFire.json",
+        "htm_file": "/charts/na-us-south-west-02__NetApp SolidFire.html"
+    },
+    {
+        "site_name": "na-us-south-west-02",
+        "product_name": "NetApp StorageGRID",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-02__NetApp StorageGRID.json",
+        "web_file": "/charts/na-us-south-west-02__NetApp StorageGRID.json",
+        "htm_file": "/charts/na-us-south-west-02__NetApp StorageGRID.html"
+    },
+    {
+        "site_name": "na-us-south-west-02",
+        "product_name": "Pure FlashBlade",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-02__Pure FlashBlade.json",
+        "web_file": "/charts/na-us-south-west-02__Pure FlashBlade.json",
+        "htm_file": "/charts/na-us-south-west-02__Pure FlashBlade.html"
+    },
+    {
+        "site_name": "na-us-south-west-02",
+        "product_name": "Qumulo",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-02__Qumulo.json",
+        "web_file": "/charts/na-us-south-west-02__Qumulo.json",
+        "htm_file": "/charts/na-us-south-west-02__Qumulo.html"
+    },
+    {
+        "site_name": "na-us-south-west-02",
+        "product_name": "VAST Data",
+        "svr_file": "/FAKE/PATH/VALUE/charts/na-us-south-west-02__VAST Data.json",
+        "web_file": "/charts/na-us-south-west-02__VAST Data.json",
+        "htm_file": "/charts/na-us-south-west-02__VAST Data.html"
+    }
+]

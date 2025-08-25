@@ -1,0 +1,145 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h3>Performance Monitoring</h3>
+
+<select name="performance_charts_list_box" id="performance_charts_list_box">
+    <div name="list_box_options" id="list_box_options">
+        <option selected value="NONE">---------- Select Chart ----------</option>
+    </div>
+</select>
+<input type="submit" id="submit" value="submit" onclick="request_perf_chart()">
+<hr>
+
+
+<div class="content-area" id="content-area">
+</div>
+
+<script type="text/javascript">
+    const DropDownElement = document.getElementById("performance_charts_list_box");
+    var performance_charts_list_box = DropDownElement.value;
+
+    const initial_list_box_options = document.getElementById("list_box_options").innerHTML;
+
+    let content_area = document.getElementById('content-area').innerHTML;
+
+    async function request_perf_chart() {
+        // console.log('Clicked: request_perf_chart');
+        var performance_charts_selected = DropDownElement.value;
+        // console.log('REQUESTING:', performance_charts_selected);
+        
+        if (performance_charts_selected === null || performance_charts_selected === "NONE" || performance_charts_selected === "") {
+            document.getElementById('content-area').innerHTML = '';
+            document.getElementById('content-area').innerHTML = "You have to select an available chart.";
+            var data = {
+                'api_code': 202,
+                'message': "error",
+                'json': null,
+                'html': "<b>No Parameters File Name</b>"
+            }
+            return data;
+        }
+        
+        document.getElementById('content-area').innerHTML = '';
+        document.getElementById('content-area').innerHTML = "REQUESTING CHART";
+        // document.getElementById('content-area')
+
+        let site_name = performance_charts_selected.split(" : ")[0].toLowerCase();
+        let product_name = performance_charts_selected.split(" : ")[1];  // .replace(' ', '%20%')
+        let chart_file_name= site_name + '__' + product_name; // + '.html';
+        
+       
+        const site_product_value = '/v1/fetch_chart?site_name=' + site_name + '&product_name=' + product_name;
+        // console.log('site_product_value:', site_product_value);
+        try {
+            const response = await fetch(site_product_value);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            //
+            var web_data = await response.json();
+            var html = web_data['html']
+
+            document.getElementById('content-area').innerHTML = "";
+            document.getElementById('content-area').innerHTML = html;
+
+            var container = document.getElementById('content-area');
+
+            executeScripts(container);
+
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
+
+    }
+
+    async function fetchChartsList() {
+        const fetch_chart_url_path = '/v1/fetch_performance_charts';
+        try {
+            const response = await fetch(fetch_chart_url_path);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            var data_charts_json = await response.json();
+            return data_charts_json;
+
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
+
+    }
+
+    async function request_perf_chart_options() {
+        // console.log('entered: request_perf_chart_options');
+        let content_area = document.getElementById('content-area').innerHTML;
+        content_area = document.getElementById('content-area').innerHTML = "Requesting List of Charts...";
+
+        const charts_options_data = await fetchChartsList();
+
+        // for (let x in charts_options_data) {
+            // var code = charts_options_data['api_code']
+            // var html_options = charts_options_data['map_list']
+        // }
+
+        var html_options = charts_options_data['map_list']
+
+        var list_box_options = document.getElementById("list_box_options");
+        list_box_options.innerHTML = html_options;
+
+        content_area = document.getElementById('content-area').innerHTML = "Load Chart List Success.";
+        await example();
+        content_area = document.getElementById('content-area').innerHTML = "";
+
+    }
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function example() {
+      await sleep(1000); // Pauses execution for 1 seconds
+    }
+
+    // Helper function to execute scripts in loaded HTML
+    function executeScripts(container) {
+        let scripts = container.querySelectorAll('script');
+        scripts.forEach(script => {
+            let newScript = document.createElement('script');
+            if (script.src) {
+                newScript.src = script.src;
+            } else {
+                newScript.textContent = script.textContent;
+            }
+            // console.log(newScript);
+            document.head.appendChild(newScript);
+            document.head.removeChild(newScript);
+
+        });
+    }
+
+
+    request_perf_chart_options()  // on load populate the available charts.
+
+</script>
+{% endblock %}
+

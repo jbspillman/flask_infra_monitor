@@ -1,0 +1,3319 @@
+
+    <div class="container">
+        <div class="header">
+            <h2>AP-JP-NORTH-WEST-02 : NetApp SolidFire</h2>
+            <p>Real-time performance metrics for 4 servers (Last 12 Hours)</p>
+            
+            <div class="server-legend"> 
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #e52d2d;"></div>
+                        <span>apjpnw02sfpr001</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #89e52d;"></div>
+                        <span>apjpnw02sfpr002</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #2de5e5;"></div>
+                        <span>apjpnw02sfpr003</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #892de5;"></div>
+                        <span>apjpnw02sfpr004</span>
+                    </div></div>
+        </div>
+
+        <div class="stats-summary">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-value">4</div>
+                    <div class="stat-label">Servers Monitored</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">5</div>
+                    <div class="stat-label">Metrics Tracked</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="dataPoints">-</div>
+                    <div class="stat-label">Data Points</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="timeRange">-</div>
+                    <div class="stat-label">Time Range</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-title">Cpu Usage Percent</div>
+                    <div class="chart-wrapper">
+                        <canvas id="cpu_usage_percentChart"></canvas>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Disk Io Mbps</div>
+                    <div class="chart-wrapper">
+                        <canvas id="disk_io_mbpsChart"></canvas>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Memory Usage Gb</div>
+                    <div class="chart-wrapper">
+                        <canvas id="memory_usage_gbChart"></canvas>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Network Latency Ms</div>
+                    <div class="chart-wrapper">
+                        <canvas id="network_latency_msChart"></canvas>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Process Count</div>
+                    <div class="chart-wrapper">
+                        <canvas id="process_countChart"></canvas>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="footer">
+            <p>Generated on 2025-08-24 20:07:14 | Data source: ap-jp-north-west-02__NetApp SolidFire.json</p>
+        </div>
+    </div>
+
+    <script>
+        // Parse the JSON data
+        var cData_1756080434667769590 = [
+        {
+                "apjpnw02sfpr001": [
+                        {
+                                "timestamp": "2025-08-24 12:33:57",
+                                "cpu_usage_percent": 72.42,
+                                "memory_usage_gb": 5.35,
+                                "disk_io_mbps": 145.19,
+                                "network_latency_ms": 37.89,
+                                "process_count": 154
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:36:02",
+                                "cpu_usage_percent": 89.79,
+                                "memory_usage_gb": 3.49,
+                                "disk_io_mbps": 462.79,
+                                "network_latency_ms": 30.98,
+                                "process_count": 72
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:36:07",
+                                "cpu_usage_percent": 48.67,
+                                "memory_usage_gb": 4.41,
+                                "disk_io_mbps": 295.06,
+                                "network_latency_ms": 2.53,
+                                "process_count": 89
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:37:20",
+                                "cpu_usage_percent": 56.54,
+                                "memory_usage_gb": 7.23,
+                                "disk_io_mbps": 481.55,
+                                "network_latency_ms": 62.23,
+                                "process_count": 180
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:41:01",
+                                "cpu_usage_percent": 42.38,
+                                "memory_usage_gb": 4.33,
+                                "disk_io_mbps": 134.93,
+                                "network_latency_ms": 31.79,
+                                "process_count": 75
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:46:00",
+                                "cpu_usage_percent": 89.38,
+                                "memory_usage_gb": 8.52,
+                                "disk_io_mbps": 500.0,
+                                "network_latency_ms": 80.96,
+                                "process_count": 154
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:51:01",
+                                "cpu_usage_percent": 97.8,
+                                "memory_usage_gb": 7.8,
+                                "disk_io_mbps": 294.12,
+                                "network_latency_ms": 30.41,
+                                "process_count": 173
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:56:01",
+                                "cpu_usage_percent": 91.81,
+                                "memory_usage_gb": 6.64,
+                                "disk_io_mbps": 172.4,
+                                "network_latency_ms": 70.87,
+                                "process_count": 168
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:01:01",
+                                "cpu_usage_percent": 45.37,
+                                "memory_usage_gb": 9.35,
+                                "disk_io_mbps": 250.88,
+                                "network_latency_ms": 14.19,
+                                "process_count": 143
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:06:00",
+                                "cpu_usage_percent": 64.25,
+                                "memory_usage_gb": 3.82,
+                                "disk_io_mbps": 348.34,
+                                "network_latency_ms": 55.63,
+                                "process_count": 118
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:11:00",
+                                "cpu_usage_percent": 23.04,
+                                "memory_usage_gb": 4.81,
+                                "disk_io_mbps": 105.04,
+                                "network_latency_ms": 25.13,
+                                "process_count": 72
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:16:01",
+                                "cpu_usage_percent": 54.19,
+                                "memory_usage_gb": 3.03,
+                                "disk_io_mbps": 136.32,
+                                "network_latency_ms": 15.52,
+                                "process_count": 125
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:21:00",
+                                "cpu_usage_percent": 62.53,
+                                "memory_usage_gb": 2.54,
+                                "disk_io_mbps": 247.45,
+                                "network_latency_ms": 39.86,
+                                "process_count": 145
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:26:00",
+                                "cpu_usage_percent": 61.99,
+                                "memory_usage_gb": 6.47,
+                                "disk_io_mbps": 310.27,
+                                "network_latency_ms": 59.24,
+                                "process_count": 82
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:31:01",
+                                "cpu_usage_percent": 22.06,
+                                "memory_usage_gb": 11.81,
+                                "disk_io_mbps": 88.16,
+                                "network_latency_ms": 42.76,
+                                "process_count": 78
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:36:00",
+                                "cpu_usage_percent": 60.39,
+                                "memory_usage_gb": 3.05,
+                                "disk_io_mbps": 220.57,
+                                "network_latency_ms": 54.08,
+                                "process_count": 91
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:41:01",
+                                "cpu_usage_percent": 14.2,
+                                "memory_usage_gb": 11.91,
+                                "disk_io_mbps": 314.66,
+                                "network_latency_ms": 50.29,
+                                "process_count": 81
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:46:00",
+                                "cpu_usage_percent": 16.72,
+                                "memory_usage_gb": 5.69,
+                                "disk_io_mbps": 88.55,
+                                "network_latency_ms": 1.21,
+                                "process_count": 143
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:51:00",
+                                "cpu_usage_percent": 69.9,
+                                "memory_usage_gb": 6.56,
+                                "disk_io_mbps": 144.48,
+                                "network_latency_ms": 48.8,
+                                "process_count": 138
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:56:01",
+                                "cpu_usage_percent": 30.94,
+                                "memory_usage_gb": 2.09,
+                                "disk_io_mbps": 236.72,
+                                "network_latency_ms": 44.66,
+                                "process_count": 133
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:01:00",
+                                "cpu_usage_percent": 14.27,
+                                "memory_usage_gb": 7.86,
+                                "disk_io_mbps": 218.39,
+                                "network_latency_ms": 37.88,
+                                "process_count": 100
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:06:00",
+                                "cpu_usage_percent": 11.7,
+                                "memory_usage_gb": 5.61,
+                                "disk_io_mbps": 264.02,
+                                "network_latency_ms": 27.99,
+                                "process_count": 74
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:11:00",
+                                "cpu_usage_percent": 20.19,
+                                "memory_usage_gb": 2.32,
+                                "disk_io_mbps": 67.39,
+                                "network_latency_ms": 30.55,
+                                "process_count": 95
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:16:00",
+                                "cpu_usage_percent": 32.52,
+                                "memory_usage_gb": 10.92,
+                                "disk_io_mbps": 97.18,
+                                "network_latency_ms": 22.89,
+                                "process_count": 121
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:21:00",
+                                "cpu_usage_percent": 29.19,
+                                "memory_usage_gb": 5.23,
+                                "disk_io_mbps": 58.85,
+                                "network_latency_ms": 14.72,
+                                "process_count": 137
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:26:00",
+                                "cpu_usage_percent": 37.91,
+                                "memory_usage_gb": 3.34,
+                                "disk_io_mbps": 280.03,
+                                "network_latency_ms": 18.03,
+                                "process_count": 59
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:30:59",
+                                "cpu_usage_percent": 56.87,
+                                "memory_usage_gb": 5.29,
+                                "disk_io_mbps": 152.67,
+                                "network_latency_ms": 56.78,
+                                "process_count": 129
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:36:00",
+                                "cpu_usage_percent": 27.95,
+                                "memory_usage_gb": 9.01,
+                                "disk_io_mbps": 209.65,
+                                "network_latency_ms": 16.95,
+                                "process_count": 55
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:41:00",
+                                "cpu_usage_percent": 15.61,
+                                "memory_usage_gb": 2.24,
+                                "disk_io_mbps": 112.32,
+                                "network_latency_ms": 8.49,
+                                "process_count": 148
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:46:00",
+                                "cpu_usage_percent": 11.05,
+                                "memory_usage_gb": 11.29,
+                                "disk_io_mbps": 219.86,
+                                "network_latency_ms": 25.85,
+                                "process_count": 134
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:51:01",
+                                "cpu_usage_percent": 18.65,
+                                "memory_usage_gb": 8.37,
+                                "disk_io_mbps": 120.56,
+                                "network_latency_ms": 4.74,
+                                "process_count": 149
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:56:00",
+                                "cpu_usage_percent": 10.16,
+                                "memory_usage_gb": 7.66,
+                                "disk_io_mbps": 109.71,
+                                "network_latency_ms": 24.84,
+                                "process_count": 125
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:01:00",
+                                "cpu_usage_percent": 25.71,
+                                "memory_usage_gb": 7.77,
+                                "disk_io_mbps": 276.07,
+                                "network_latency_ms": 22.11,
+                                "process_count": 129
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:06:00",
+                                "cpu_usage_percent": 39.28,
+                                "memory_usage_gb": 3.61,
+                                "disk_io_mbps": 97.56,
+                                "network_latency_ms": 37.66,
+                                "process_count": 148
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:11:00",
+                                "cpu_usage_percent": 69.0,
+                                "memory_usage_gb": 7.24,
+                                "disk_io_mbps": 104.12,
+                                "network_latency_ms": 50.03,
+                                "process_count": 99
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:15:59",
+                                "cpu_usage_percent": 16.2,
+                                "memory_usage_gb": 10.35,
+                                "disk_io_mbps": 176.52,
+                                "network_latency_ms": 20.92,
+                                "process_count": 109
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:21:00",
+                                "cpu_usage_percent": 52.84,
+                                "memory_usage_gb": 5.98,
+                                "disk_io_mbps": 112.63,
+                                "network_latency_ms": 26.64,
+                                "process_count": 98
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:26:01",
+                                "cpu_usage_percent": 24.5,
+                                "memory_usage_gb": 10.61,
+                                "disk_io_mbps": 323.3,
+                                "network_latency_ms": 1.32,
+                                "process_count": 69
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:30:59",
+                                "cpu_usage_percent": 31.06,
+                                "memory_usage_gb": 11.77,
+                                "disk_io_mbps": 306.27,
+                                "network_latency_ms": 47.34,
+                                "process_count": 95
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:36:01",
+                                "cpu_usage_percent": 59.73,
+                                "memory_usage_gb": 7.94,
+                                "disk_io_mbps": 345.4,
+                                "network_latency_ms": 8.83,
+                                "process_count": 95
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:40:59",
+                                "cpu_usage_percent": 34.67,
+                                "memory_usage_gb": 3.42,
+                                "disk_io_mbps": 332.77,
+                                "network_latency_ms": 48.17,
+                                "process_count": 88
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:46:01",
+                                "cpu_usage_percent": 50.58,
+                                "memory_usage_gb": 10.58,
+                                "disk_io_mbps": 204.26,
+                                "network_latency_ms": 19.1,
+                                "process_count": 94
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:51:00",
+                                "cpu_usage_percent": 45.95,
+                                "memory_usage_gb": 3.07,
+                                "disk_io_mbps": 169.48,
+                                "network_latency_ms": 49.84,
+                                "process_count": 78
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:56:00",
+                                "cpu_usage_percent": 44.76,
+                                "memory_usage_gb": 11.11,
+                                "disk_io_mbps": 282.15,
+                                "network_latency_ms": 24.18,
+                                "process_count": 147
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:01:00",
+                                "cpu_usage_percent": 50.52,
+                                "memory_usage_gb": 8.88,
+                                "disk_io_mbps": 325.74,
+                                "network_latency_ms": 1.72,
+                                "process_count": 149
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:06:00",
+                                "cpu_usage_percent": 35.02,
+                                "memory_usage_gb": 3.31,
+                                "disk_io_mbps": 129.12,
+                                "network_latency_ms": 39.6,
+                                "process_count": 120
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:11:00",
+                                "cpu_usage_percent": 33.31,
+                                "memory_usage_gb": 6.71,
+                                "disk_io_mbps": 60.85,
+                                "network_latency_ms": 4.76,
+                                "process_count": 55
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:16:00",
+                                "cpu_usage_percent": 24.88,
+                                "memory_usage_gb": 3.6,
+                                "disk_io_mbps": 307.5,
+                                "network_latency_ms": 29.31,
+                                "process_count": 143
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:21:00",
+                                "cpu_usage_percent": 31.27,
+                                "memory_usage_gb": 2.25,
+                                "disk_io_mbps": 203.92,
+                                "network_latency_ms": 21.78,
+                                "process_count": 71
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:26:00",
+                                "cpu_usage_percent": 23.48,
+                                "memory_usage_gb": 3.22,
+                                "disk_io_mbps": 59.32,
+                                "network_latency_ms": 32.32,
+                                "process_count": 94
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:31:00",
+                                "cpu_usage_percent": 54.73,
+                                "memory_usage_gb": 3.39,
+                                "disk_io_mbps": 65.88,
+                                "network_latency_ms": 27.76,
+                                "process_count": 120
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:35:59",
+                                "cpu_usage_percent": 33.03,
+                                "memory_usage_gb": 9.56,
+                                "disk_io_mbps": 110.59,
+                                "network_latency_ms": 3.55,
+                                "process_count": 127
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:41:00",
+                                "cpu_usage_percent": 15.01,
+                                "memory_usage_gb": 6.04,
+                                "disk_io_mbps": 67.26,
+                                "network_latency_ms": 50.54,
+                                "process_count": 71
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:46:00",
+                                "cpu_usage_percent": 54.87,
+                                "memory_usage_gb": 9.77,
+                                "disk_io_mbps": 77.52,
+                                "network_latency_ms": 53.32,
+                                "process_count": 133
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:50:59",
+                                "cpu_usage_percent": 65.85,
+                                "memory_usage_gb": 11.4,
+                                "disk_io_mbps": 94.94,
+                                "network_latency_ms": 14.42,
+                                "process_count": 125
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:56:00",
+                                "cpu_usage_percent": 33.66,
+                                "memory_usage_gb": 4.8,
+                                "disk_io_mbps": 183.41,
+                                "network_latency_ms": 38.8,
+                                "process_count": 102
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:00:59",
+                                "cpu_usage_percent": 52.64,
+                                "memory_usage_gb": 2.31,
+                                "disk_io_mbps": 119.8,
+                                "network_latency_ms": 50.23,
+                                "process_count": 133
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:06:00",
+                                "cpu_usage_percent": 12.15,
+                                "memory_usage_gb": 2.8,
+                                "disk_io_mbps": 240.69,
+                                "network_latency_ms": 50.31,
+                                "process_count": 113
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:11:00",
+                                "cpu_usage_percent": 29.67,
+                                "memory_usage_gb": 9.68,
+                                "disk_io_mbps": 149.51,
+                                "network_latency_ms": 8.99,
+                                "process_count": 84
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:15:59",
+                                "cpu_usage_percent": 28.53,
+                                "memory_usage_gb": 2.06,
+                                "disk_io_mbps": 218.96,
+                                "network_latency_ms": 5.03,
+                                "process_count": 62
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:21:00",
+                                "cpu_usage_percent": 30.89,
+                                "memory_usage_gb": 6.05,
+                                "disk_io_mbps": 146.27,
+                                "network_latency_ms": 49.3,
+                                "process_count": 76
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:26:00",
+                                "cpu_usage_percent": 22.3,
+                                "memory_usage_gb": 9.49,
+                                "disk_io_mbps": 331.07,
+                                "network_latency_ms": 44.88,
+                                "process_count": 72
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:31:00",
+                                "cpu_usage_percent": 13.61,
+                                "memory_usage_gb": 3.03,
+                                "disk_io_mbps": 279.03,
+                                "network_latency_ms": 9.59,
+                                "process_count": 63
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:35:59",
+                                "cpu_usage_percent": 40.56,
+                                "memory_usage_gb": 3.8,
+                                "disk_io_mbps": 231.37,
+                                "network_latency_ms": 39.36,
+                                "process_count": 132
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:41:00",
+                                "cpu_usage_percent": 67.26,
+                                "memory_usage_gb": 6.93,
+                                "disk_io_mbps": 235.86,
+                                "network_latency_ms": 8.24,
+                                "process_count": 142
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:45:59",
+                                "cpu_usage_percent": 12.16,
+                                "memory_usage_gb": 3.95,
+                                "disk_io_mbps": 344.29,
+                                "network_latency_ms": 17.45,
+                                "process_count": 96
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:51:00",
+                                "cpu_usage_percent": 62.73,
+                                "memory_usage_gb": 9.02,
+                                "disk_io_mbps": 279.98,
+                                "network_latency_ms": 25.25,
+                                "process_count": 117
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:56:00",
+                                "cpu_usage_percent": 61.82,
+                                "memory_usage_gb": 11.51,
+                                "disk_io_mbps": 242.69,
+                                "network_latency_ms": 35.17,
+                                "process_count": 130
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:01:00",
+                                "cpu_usage_percent": 43.35,
+                                "memory_usage_gb": 2.56,
+                                "disk_io_mbps": 87.86,
+                                "network_latency_ms": 8.75,
+                                "process_count": 140
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:05:59",
+                                "cpu_usage_percent": 14.1,
+                                "memory_usage_gb": 2.38,
+                                "disk_io_mbps": 88.02,
+                                "network_latency_ms": 2.92,
+                                "process_count": 92
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:11:00",
+                                "cpu_usage_percent": 38.52,
+                                "memory_usage_gb": 4.45,
+                                "disk_io_mbps": 126.02,
+                                "network_latency_ms": 39.02,
+                                "process_count": 99
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:16:00",
+                                "cpu_usage_percent": 34.02,
+                                "memory_usage_gb": 6.32,
+                                "disk_io_mbps": 321.51,
+                                "network_latency_ms": 38.01,
+                                "process_count": 114
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:21:01",
+                                "cpu_usage_percent": 19.67,
+                                "memory_usage_gb": 11.27,
+                                "disk_io_mbps": 190.91,
+                                "network_latency_ms": 18.8,
+                                "process_count": 127
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:25:59",
+                                "cpu_usage_percent": 52.27,
+                                "memory_usage_gb": 10.23,
+                                "disk_io_mbps": 222.1,
+                                "network_latency_ms": 34.18,
+                                "process_count": 137
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:30:59",
+                                "cpu_usage_percent": 37.13,
+                                "memory_usage_gb": 7.75,
+                                "disk_io_mbps": 173.67,
+                                "network_latency_ms": 54.16,
+                                "process_count": 149
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:36:00",
+                                "cpu_usage_percent": 30.1,
+                                "memory_usage_gb": 10.69,
+                                "disk_io_mbps": 195.48,
+                                "network_latency_ms": 25.01,
+                                "process_count": 119
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:40:59",
+                                "cpu_usage_percent": 38.03,
+                                "memory_usage_gb": 7.84,
+                                "disk_io_mbps": 232.52,
+                                "network_latency_ms": 52.3,
+                                "process_count": 102
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:45:59",
+                                "cpu_usage_percent": 66.96,
+                                "memory_usage_gb": 11.19,
+                                "disk_io_mbps": 136.0,
+                                "network_latency_ms": 30.63,
+                                "process_count": 82
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:51:01",
+                                "cpu_usage_percent": 35.43,
+                                "memory_usage_gb": 2.57,
+                                "disk_io_mbps": 146.56,
+                                "network_latency_ms": 33.92,
+                                "process_count": 57
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:56:01",
+                                "cpu_usage_percent": 39.98,
+                                "memory_usage_gb": 6.11,
+                                "disk_io_mbps": 199.55,
+                                "network_latency_ms": 59.39,
+                                "process_count": 84
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:01:00",
+                                "cpu_usage_percent": 20.13,
+                                "memory_usage_gb": 7.03,
+                                "disk_io_mbps": 236.68,
+                                "network_latency_ms": 17.41,
+                                "process_count": 100
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:05:59",
+                                "cpu_usage_percent": 52.72,
+                                "memory_usage_gb": 3.63,
+                                "disk_io_mbps": 341.21,
+                                "network_latency_ms": 35.09,
+                                "process_count": 93
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:10:59",
+                                "cpu_usage_percent": 63.45,
+                                "memory_usage_gb": 2.51,
+                                "disk_io_mbps": 311.99,
+                                "network_latency_ms": 14.79,
+                                "process_count": 62
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:15:59",
+                                "cpu_usage_percent": 33.19,
+                                "memory_usage_gb": 5.49,
+                                "disk_io_mbps": 136.92,
+                                "network_latency_ms": 52.5,
+                                "process_count": 119
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:20:59",
+                                "cpu_usage_percent": 51.13,
+                                "memory_usage_gb": 4.7,
+                                "disk_io_mbps": 251.21,
+                                "network_latency_ms": 53.13,
+                                "process_count": 118
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:25:59",
+                                "cpu_usage_percent": 49.33,
+                                "memory_usage_gb": 7.03,
+                                "disk_io_mbps": 232.23,
+                                "network_latency_ms": 48.3,
+                                "process_count": 50
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:30:59",
+                                "cpu_usage_percent": 13.37,
+                                "memory_usage_gb": 2.31,
+                                "disk_io_mbps": 269.08,
+                                "network_latency_ms": 18.32,
+                                "process_count": 93
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:36:00",
+                                "cpu_usage_percent": 45.89,
+                                "memory_usage_gb": 2.92,
+                                "disk_io_mbps": 51.2,
+                                "network_latency_ms": 20.25,
+                                "process_count": 106
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:40:59",
+                                "cpu_usage_percent": 37.66,
+                                "memory_usage_gb": 9.36,
+                                "disk_io_mbps": 50.91,
+                                "network_latency_ms": 5.76,
+                                "process_count": 135
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:45:59",
+                                "cpu_usage_percent": 48.83,
+                                "memory_usage_gb": 7.66,
+                                "disk_io_mbps": 101.63,
+                                "network_latency_ms": 30.64,
+                                "process_count": 87
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:50:59",
+                                "cpu_usage_percent": 56.74,
+                                "memory_usage_gb": 5.96,
+                                "disk_io_mbps": 161.96,
+                                "network_latency_ms": 29.76,
+                                "process_count": 63
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:55:59",
+                                "cpu_usage_percent": 32.09,
+                                "memory_usage_gb": 6.24,
+                                "disk_io_mbps": 147.33,
+                                "network_latency_ms": 54.1,
+                                "process_count": 134
+                        },
+                        {
+                                "timestamp": "2025-08-24 20:00:59",
+                                "cpu_usage_percent": 58.06,
+                                "memory_usage_gb": 5.28,
+                                "disk_io_mbps": 87.25,
+                                "network_latency_ms": 41.06,
+                                "process_count": 121
+                        },
+                        {
+                                "timestamp": "2025-08-24 20:06:00",
+                                "cpu_usage_percent": 33.85,
+                                "memory_usage_gb": 3.98,
+                                "disk_io_mbps": 73.39,
+                                "network_latency_ms": 16.77,
+                                "process_count": 143
+                        }
+                ]
+        },
+        {
+                "apjpnw02sfpr002": [
+                        {
+                                "timestamp": "2025-08-24 12:33:57",
+                                "cpu_usage_percent": 61.22,
+                                "memory_usage_gb": 11.13,
+                                "disk_io_mbps": 410.81,
+                                "network_latency_ms": 89.66,
+                                "process_count": 152
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:36:02",
+                                "cpu_usage_percent": 96.71,
+                                "memory_usage_gb": 4.9,
+                                "disk_io_mbps": 267.94,
+                                "network_latency_ms": 25.71,
+                                "process_count": 100
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:36:07",
+                                "cpu_usage_percent": 18.75,
+                                "memory_usage_gb": 13.52,
+                                "disk_io_mbps": 500.0,
+                                "network_latency_ms": 67.24,
+                                "process_count": 159
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:37:20",
+                                "cpu_usage_percent": 61.24,
+                                "memory_usage_gb": 6.09,
+                                "disk_io_mbps": 127.66,
+                                "network_latency_ms": 20.64,
+                                "process_count": 84
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:41:01",
+                                "cpu_usage_percent": 50.8,
+                                "memory_usage_gb": 8.05,
+                                "disk_io_mbps": 399.41,
+                                "network_latency_ms": 37.98,
+                                "process_count": 92
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:46:00",
+                                "cpu_usage_percent": 61.91,
+                                "memory_usage_gb": 8.34,
+                                "disk_io_mbps": 96.27,
+                                "network_latency_ms": 66.45,
+                                "process_count": 135
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:51:01",
+                                "cpu_usage_percent": 16.01,
+                                "memory_usage_gb": 9.84,
+                                "disk_io_mbps": 361.39,
+                                "network_latency_ms": 83.92,
+                                "process_count": 118
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:56:01",
+                                "cpu_usage_percent": 66.96,
+                                "memory_usage_gb": 6.35,
+                                "disk_io_mbps": 228.44,
+                                "network_latency_ms": 18.1,
+                                "process_count": 140
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:01:01",
+                                "cpu_usage_percent": 57.0,
+                                "memory_usage_gb": 10.08,
+                                "disk_io_mbps": 103.78,
+                                "network_latency_ms": 9.28,
+                                "process_count": 140
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:06:01",
+                                "cpu_usage_percent": 35.42,
+                                "memory_usage_gb": 10.65,
+                                "disk_io_mbps": 90.54,
+                                "network_latency_ms": 11.23,
+                                "process_count": 133
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:11:00",
+                                "cpu_usage_percent": 13.34,
+                                "memory_usage_gb": 8.54,
+                                "disk_io_mbps": 55.82,
+                                "network_latency_ms": 11.08,
+                                "process_count": 129
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:16:01",
+                                "cpu_usage_percent": 68.14,
+                                "memory_usage_gb": 2.3,
+                                "disk_io_mbps": 272.5,
+                                "network_latency_ms": 5.72,
+                                "process_count": 80
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:21:00",
+                                "cpu_usage_percent": 68.69,
+                                "memory_usage_gb": 4.74,
+                                "disk_io_mbps": 136.66,
+                                "network_latency_ms": 18.93,
+                                "process_count": 137
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:26:00",
+                                "cpu_usage_percent": 57.59,
+                                "memory_usage_gb": 6.18,
+                                "disk_io_mbps": 328.24,
+                                "network_latency_ms": 31.71,
+                                "process_count": 125
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:31:01",
+                                "cpu_usage_percent": 37.74,
+                                "memory_usage_gb": 7.4,
+                                "disk_io_mbps": 99.97,
+                                "network_latency_ms": 58.79,
+                                "process_count": 75
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:36:01",
+                                "cpu_usage_percent": 37.69,
+                                "memory_usage_gb": 11.54,
+                                "disk_io_mbps": 271.01,
+                                "network_latency_ms": 43.05,
+                                "process_count": 134
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:41:01",
+                                "cpu_usage_percent": 17.51,
+                                "memory_usage_gb": 9.04,
+                                "disk_io_mbps": 88.11,
+                                "network_latency_ms": 6.51,
+                                "process_count": 90
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:46:00",
+                                "cpu_usage_percent": 18.43,
+                                "memory_usage_gb": 8.19,
+                                "disk_io_mbps": 339.32,
+                                "network_latency_ms": 46.96,
+                                "process_count": 106
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:51:00",
+                                "cpu_usage_percent": 14.03,
+                                "memory_usage_gb": 8.37,
+                                "disk_io_mbps": 347.22,
+                                "network_latency_ms": 39.13,
+                                "process_count": 85
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:56:01",
+                                "cpu_usage_percent": 35.72,
+                                "memory_usage_gb": 9.79,
+                                "disk_io_mbps": 132.5,
+                                "network_latency_ms": 4.67,
+                                "process_count": 127
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:01:00",
+                                "cpu_usage_percent": 54.38,
+                                "memory_usage_gb": 3.98,
+                                "disk_io_mbps": 205.4,
+                                "network_latency_ms": 54.59,
+                                "process_count": 60
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:06:00",
+                                "cpu_usage_percent": 27.54,
+                                "memory_usage_gb": 2.92,
+                                "disk_io_mbps": 226.78,
+                                "network_latency_ms": 32.45,
+                                "process_count": 65
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:11:01",
+                                "cpu_usage_percent": 40.58,
+                                "memory_usage_gb": 5.54,
+                                "disk_io_mbps": 289.3,
+                                "network_latency_ms": 36.29,
+                                "process_count": 123
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:16:00",
+                                "cpu_usage_percent": 12.3,
+                                "memory_usage_gb": 11.37,
+                                "disk_io_mbps": 321.42,
+                                "network_latency_ms": 6.14,
+                                "process_count": 132
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:21:00",
+                                "cpu_usage_percent": 54.5,
+                                "memory_usage_gb": 5.81,
+                                "disk_io_mbps": 318.15,
+                                "network_latency_ms": 26.16,
+                                "process_count": 68
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:26:00",
+                                "cpu_usage_percent": 65.41,
+                                "memory_usage_gb": 11.69,
+                                "disk_io_mbps": 323.32,
+                                "network_latency_ms": 52.51,
+                                "process_count": 119
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:31:00",
+                                "cpu_usage_percent": 47.1,
+                                "memory_usage_gb": 10.27,
+                                "disk_io_mbps": 154.41,
+                                "network_latency_ms": 2.73,
+                                "process_count": 138
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:36:01",
+                                "cpu_usage_percent": 66.33,
+                                "memory_usage_gb": 2.9,
+                                "disk_io_mbps": 136.92,
+                                "network_latency_ms": 50.86,
+                                "process_count": 74
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:41:01",
+                                "cpu_usage_percent": 26.05,
+                                "memory_usage_gb": 9.47,
+                                "disk_io_mbps": 253.56,
+                                "network_latency_ms": 10.21,
+                                "process_count": 111
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:46:00",
+                                "cpu_usage_percent": 22.28,
+                                "memory_usage_gb": 9.55,
+                                "disk_io_mbps": 55.71,
+                                "network_latency_ms": 36.84,
+                                "process_count": 101
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:51:01",
+                                "cpu_usage_percent": 19.58,
+                                "memory_usage_gb": 9.61,
+                                "disk_io_mbps": 74.17,
+                                "network_latency_ms": 35.33,
+                                "process_count": 55
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:56:00",
+                                "cpu_usage_percent": 15.86,
+                                "memory_usage_gb": 5.45,
+                                "disk_io_mbps": 158.01,
+                                "network_latency_ms": 51.76,
+                                "process_count": 104
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:01:00",
+                                "cpu_usage_percent": 52.14,
+                                "memory_usage_gb": 4.87,
+                                "disk_io_mbps": 261.89,
+                                "network_latency_ms": 48.11,
+                                "process_count": 81
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:06:00",
+                                "cpu_usage_percent": 40.31,
+                                "memory_usage_gb": 10.14,
+                                "disk_io_mbps": 342.57,
+                                "network_latency_ms": 5.95,
+                                "process_count": 78
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:11:00",
+                                "cpu_usage_percent": 16.95,
+                                "memory_usage_gb": 2.37,
+                                "disk_io_mbps": 338.73,
+                                "network_latency_ms": 12.31,
+                                "process_count": 145
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:16:00",
+                                "cpu_usage_percent": 15.29,
+                                "memory_usage_gb": 8.3,
+                                "disk_io_mbps": 324.54,
+                                "network_latency_ms": 6.92,
+                                "process_count": 124
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:21:01",
+                                "cpu_usage_percent": 50.8,
+                                "memory_usage_gb": 11.02,
+                                "disk_io_mbps": 130.07,
+                                "network_latency_ms": 28.26,
+                                "process_count": 89
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:26:01",
+                                "cpu_usage_percent": 28.45,
+                                "memory_usage_gb": 5.1,
+                                "disk_io_mbps": 80.58,
+                                "network_latency_ms": 59.07,
+                                "process_count": 112
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:31:00",
+                                "cpu_usage_percent": 49.35,
+                                "memory_usage_gb": 10.13,
+                                "disk_io_mbps": 222.87,
+                                "network_latency_ms": 41.22,
+                                "process_count": 141
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:36:01",
+                                "cpu_usage_percent": 17.11,
+                                "memory_usage_gb": 6.27,
+                                "disk_io_mbps": 310.7,
+                                "network_latency_ms": 54.2,
+                                "process_count": 52
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:41:00",
+                                "cpu_usage_percent": 58.13,
+                                "memory_usage_gb": 8.71,
+                                "disk_io_mbps": 241.75,
+                                "network_latency_ms": 52.96,
+                                "process_count": 89
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:46:01",
+                                "cpu_usage_percent": 56.59,
+                                "memory_usage_gb": 9.99,
+                                "disk_io_mbps": 201.71,
+                                "network_latency_ms": 11.11,
+                                "process_count": 82
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:51:00",
+                                "cpu_usage_percent": 39.25,
+                                "memory_usage_gb": 8.1,
+                                "disk_io_mbps": 78.17,
+                                "network_latency_ms": 53.56,
+                                "process_count": 55
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:56:00",
+                                "cpu_usage_percent": 43.22,
+                                "memory_usage_gb": 5.33,
+                                "disk_io_mbps": 277.75,
+                                "network_latency_ms": 2.58,
+                                "process_count": 98
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:01:00",
+                                "cpu_usage_percent": 44.67,
+                                "memory_usage_gb": 4.15,
+                                "disk_io_mbps": 116.23,
+                                "network_latency_ms": 11.6,
+                                "process_count": 125
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:06:00",
+                                "cpu_usage_percent": 67.25,
+                                "memory_usage_gb": 8.58,
+                                "disk_io_mbps": 132.21,
+                                "network_latency_ms": 25.88,
+                                "process_count": 100
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:11:00",
+                                "cpu_usage_percent": 67.58,
+                                "memory_usage_gb": 4.71,
+                                "disk_io_mbps": 71.12,
+                                "network_latency_ms": 16.24,
+                                "process_count": 67
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:16:00",
+                                "cpu_usage_percent": 50.41,
+                                "memory_usage_gb": 7.12,
+                                "disk_io_mbps": 253.58,
+                                "network_latency_ms": 57.37,
+                                "process_count": 63
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:21:00",
+                                "cpu_usage_percent": 33.63,
+                                "memory_usage_gb": 3.85,
+                                "disk_io_mbps": 230.88,
+                                "network_latency_ms": 14.85,
+                                "process_count": 56
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:26:00",
+                                "cpu_usage_percent": 58.82,
+                                "memory_usage_gb": 8.41,
+                                "disk_io_mbps": 111.23,
+                                "network_latency_ms": 30.23,
+                                "process_count": 95
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:31:00",
+                                "cpu_usage_percent": 55.16,
+                                "memory_usage_gb": 9.62,
+                                "disk_io_mbps": 78.04,
+                                "network_latency_ms": 47.65,
+                                "process_count": 133
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:36:00",
+                                "cpu_usage_percent": 16.83,
+                                "memory_usage_gb": 9.27,
+                                "disk_io_mbps": 236.51,
+                                "network_latency_ms": 58.44,
+                                "process_count": 119
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:41:00",
+                                "cpu_usage_percent": 16.35,
+                                "memory_usage_gb": 2.98,
+                                "disk_io_mbps": 179.33,
+                                "network_latency_ms": 30.7,
+                                "process_count": 65
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:46:00",
+                                "cpu_usage_percent": 50.45,
+                                "memory_usage_gb": 3.16,
+                                "disk_io_mbps": 156.59,
+                                "network_latency_ms": 3.11,
+                                "process_count": 52
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:50:59",
+                                "cpu_usage_percent": 66.83,
+                                "memory_usage_gb": 3.14,
+                                "disk_io_mbps": 319.09,
+                                "network_latency_ms": 47.66,
+                                "process_count": 118
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:56:00",
+                                "cpu_usage_percent": 38.86,
+                                "memory_usage_gb": 4.74,
+                                "disk_io_mbps": 327.1,
+                                "network_latency_ms": 19.77,
+                                "process_count": 96
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:01:00",
+                                "cpu_usage_percent": 13.93,
+                                "memory_usage_gb": 8.0,
+                                "disk_io_mbps": 301.2,
+                                "network_latency_ms": 44.41,
+                                "process_count": 136
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:06:00",
+                                "cpu_usage_percent": 23.8,
+                                "memory_usage_gb": 7.02,
+                                "disk_io_mbps": 165.42,
+                                "network_latency_ms": 36.74,
+                                "process_count": 129
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:11:00",
+                                "cpu_usage_percent": 46.65,
+                                "memory_usage_gb": 7.16,
+                                "disk_io_mbps": 65.05,
+                                "network_latency_ms": 53.12,
+                                "process_count": 105
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:15:59",
+                                "cpu_usage_percent": 59.94,
+                                "memory_usage_gb": 6.19,
+                                "disk_io_mbps": 274.21,
+                                "network_latency_ms": 54.67,
+                                "process_count": 121
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:21:00",
+                                "cpu_usage_percent": 66.19,
+                                "memory_usage_gb": 6.01,
+                                "disk_io_mbps": 251.48,
+                                "network_latency_ms": 7.7,
+                                "process_count": 98
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:26:00",
+                                "cpu_usage_percent": 20.48,
+                                "memory_usage_gb": 8.34,
+                                "disk_io_mbps": 116.97,
+                                "network_latency_ms": 24.12,
+                                "process_count": 87
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:31:00",
+                                "cpu_usage_percent": 63.09,
+                                "memory_usage_gb": 5.12,
+                                "disk_io_mbps": 320.58,
+                                "network_latency_ms": 11.41,
+                                "process_count": 65
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:35:59",
+                                "cpu_usage_percent": 55.79,
+                                "memory_usage_gb": 7.0,
+                                "disk_io_mbps": 225.94,
+                                "network_latency_ms": 40.49,
+                                "process_count": 66
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:41:00",
+                                "cpu_usage_percent": 13.94,
+                                "memory_usage_gb": 7.45,
+                                "disk_io_mbps": 80.46,
+                                "network_latency_ms": 21.87,
+                                "process_count": 114
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:46:00",
+                                "cpu_usage_percent": 16.03,
+                                "memory_usage_gb": 5.38,
+                                "disk_io_mbps": 88.57,
+                                "network_latency_ms": 10.63,
+                                "process_count": 109
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:51:00",
+                                "cpu_usage_percent": 46.36,
+                                "memory_usage_gb": 5.25,
+                                "disk_io_mbps": 291.19,
+                                "network_latency_ms": 4.25,
+                                "process_count": 142
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:56:00",
+                                "cpu_usage_percent": 53.07,
+                                "memory_usage_gb": 5.19,
+                                "disk_io_mbps": 233.41,
+                                "network_latency_ms": 14.34,
+                                "process_count": 76
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:01:00",
+                                "cpu_usage_percent": 51.85,
+                                "memory_usage_gb": 4.98,
+                                "disk_io_mbps": 250.63,
+                                "network_latency_ms": 44.74,
+                                "process_count": 138
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:05:59",
+                                "cpu_usage_percent": 14.93,
+                                "memory_usage_gb": 2.91,
+                                "disk_io_mbps": 118.62,
+                                "network_latency_ms": 46.69,
+                                "process_count": 137
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:11:00",
+                                "cpu_usage_percent": 69.52,
+                                "memory_usage_gb": 9.79,
+                                "disk_io_mbps": 149.17,
+                                "network_latency_ms": 26.7,
+                                "process_count": 129
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:16:00",
+                                "cpu_usage_percent": 60.41,
+                                "memory_usage_gb": 5.59,
+                                "disk_io_mbps": 204.14,
+                                "network_latency_ms": 49.52,
+                                "process_count": 87
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:21:02",
+                                "cpu_usage_percent": 53.14,
+                                "memory_usage_gb": 10.07,
+                                "disk_io_mbps": 347.39,
+                                "network_latency_ms": 33.74,
+                                "process_count": 84
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:25:59",
+                                "cpu_usage_percent": 48.82,
+                                "memory_usage_gb": 4.92,
+                                "disk_io_mbps": 266.05,
+                                "network_latency_ms": 38.7,
+                                "process_count": 124
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:30:59",
+                                "cpu_usage_percent": 61.91,
+                                "memory_usage_gb": 11.26,
+                                "disk_io_mbps": 207.09,
+                                "network_latency_ms": 6.78,
+                                "process_count": 87
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:36:00",
+                                "cpu_usage_percent": 58.37,
+                                "memory_usage_gb": 9.39,
+                                "disk_io_mbps": 131.64,
+                                "network_latency_ms": 42.87,
+                                "process_count": 116
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:40:59",
+                                "cpu_usage_percent": 23.17,
+                                "memory_usage_gb": 11.4,
+                                "disk_io_mbps": 184.08,
+                                "network_latency_ms": 13.39,
+                                "process_count": 128
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:46:00",
+                                "cpu_usage_percent": 60.62,
+                                "memory_usage_gb": 9.45,
+                                "disk_io_mbps": 248.57,
+                                "network_latency_ms": 15.98,
+                                "process_count": 53
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:51:01",
+                                "cpu_usage_percent": 66.92,
+                                "memory_usage_gb": 2.17,
+                                "disk_io_mbps": 271.04,
+                                "network_latency_ms": 50.91,
+                                "process_count": 104
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:56:01",
+                                "cpu_usage_percent": 57.99,
+                                "memory_usage_gb": 5.92,
+                                "disk_io_mbps": 202.35,
+                                "network_latency_ms": 25.89,
+                                "process_count": 106
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:01:00",
+                                "cpu_usage_percent": 17.9,
+                                "memory_usage_gb": 11.3,
+                                "disk_io_mbps": 230.73,
+                                "network_latency_ms": 51.71,
+                                "process_count": 66
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:05:59",
+                                "cpu_usage_percent": 52.64,
+                                "memory_usage_gb": 3.43,
+                                "disk_io_mbps": 320.46,
+                                "network_latency_ms": 35.08,
+                                "process_count": 106
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:11:00",
+                                "cpu_usage_percent": 42.28,
+                                "memory_usage_gb": 10.84,
+                                "disk_io_mbps": 129.92,
+                                "network_latency_ms": 37.52,
+                                "process_count": 148
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:15:59",
+                                "cpu_usage_percent": 58.04,
+                                "memory_usage_gb": 8.26,
+                                "disk_io_mbps": 298.47,
+                                "network_latency_ms": 43.43,
+                                "process_count": 97
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:20:59",
+                                "cpu_usage_percent": 38.27,
+                                "memory_usage_gb": 4.47,
+                                "disk_io_mbps": 260.38,
+                                "network_latency_ms": 28.68,
+                                "process_count": 104
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:26:00",
+                                "cpu_usage_percent": 28.56,
+                                "memory_usage_gb": 11.74,
+                                "disk_io_mbps": 93.32,
+                                "network_latency_ms": 20.89,
+                                "process_count": 128
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:31:00",
+                                "cpu_usage_percent": 34.96,
+                                "memory_usage_gb": 5.68,
+                                "disk_io_mbps": 181.33,
+                                "network_latency_ms": 40.6,
+                                "process_count": 131
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:36:00",
+                                "cpu_usage_percent": 53.18,
+                                "memory_usage_gb": 10.93,
+                                "disk_io_mbps": 325.11,
+                                "network_latency_ms": 21.51,
+                                "process_count": 76
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:40:59",
+                                "cpu_usage_percent": 66.19,
+                                "memory_usage_gb": 7.13,
+                                "disk_io_mbps": 206.63,
+                                "network_latency_ms": 46.48,
+                                "process_count": 132
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:45:59",
+                                "cpu_usage_percent": 48.15,
+                                "memory_usage_gb": 6.67,
+                                "disk_io_mbps": 171.08,
+                                "network_latency_ms": 2.45,
+                                "process_count": 140
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:50:59",
+                                "cpu_usage_percent": 39.95,
+                                "memory_usage_gb": 3.47,
+                                "disk_io_mbps": 334.48,
+                                "network_latency_ms": 39.17,
+                                "process_count": 114
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:55:59",
+                                "cpu_usage_percent": 59.14,
+                                "memory_usage_gb": 7.76,
+                                "disk_io_mbps": 141.62,
+                                "network_latency_ms": 33.19,
+                                "process_count": 82
+                        },
+                        {
+                                "timestamp": "2025-08-24 20:00:59",
+                                "cpu_usage_percent": 17.63,
+                                "memory_usage_gb": 10.46,
+                                "disk_io_mbps": 298.11,
+                                "network_latency_ms": 31.78,
+                                "process_count": 60
+                        },
+                        {
+                                "timestamp": "2025-08-24 20:06:00",
+                                "cpu_usage_percent": 12.99,
+                                "memory_usage_gb": 10.15,
+                                "disk_io_mbps": 57.95,
+                                "network_latency_ms": 39.79,
+                                "process_count": 129
+                        }
+                ]
+        },
+        {
+                "apjpnw02sfpr003": [
+                        {
+                                "timestamp": "2025-08-24 12:33:58",
+                                "cpu_usage_percent": 74.82,
+                                "memory_usage_gb": 9.69,
+                                "disk_io_mbps": 357.26,
+                                "network_latency_ms": 39.28,
+                                "process_count": 118
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:36:03",
+                                "cpu_usage_percent": 87.96,
+                                "memory_usage_gb": 8.18,
+                                "disk_io_mbps": 434.5,
+                                "network_latency_ms": 26.63,
+                                "process_count": 141
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:36:07",
+                                "cpu_usage_percent": 51.11,
+                                "memory_usage_gb": 2.67,
+                                "disk_io_mbps": 464.99,
+                                "network_latency_ms": 88.39,
+                                "process_count": 176
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:37:20",
+                                "cpu_usage_percent": 37.23,
+                                "memory_usage_gb": 6.08,
+                                "disk_io_mbps": 301.07,
+                                "network_latency_ms": 63.45,
+                                "process_count": 120
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:41:01",
+                                "cpu_usage_percent": 89.74,
+                                "memory_usage_gb": 4.55,
+                                "disk_io_mbps": 500.0,
+                                "network_latency_ms": 76.23,
+                                "process_count": 88
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:46:01",
+                                "cpu_usage_percent": 16.65,
+                                "memory_usage_gb": 3.22,
+                                "disk_io_mbps": 345.66,
+                                "network_latency_ms": 41.2,
+                                "process_count": 77
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:51:01",
+                                "cpu_usage_percent": 44.66,
+                                "memory_usage_gb": 12.0,
+                                "disk_io_mbps": 381.38,
+                                "network_latency_ms": 40.64,
+                                "process_count": 155
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:56:02",
+                                "cpu_usage_percent": 56.78,
+                                "memory_usage_gb": 6.58,
+                                "disk_io_mbps": 105.31,
+                                "network_latency_ms": 38.66,
+                                "process_count": 99
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:01:01",
+                                "cpu_usage_percent": 40.54,
+                                "memory_usage_gb": 5.03,
+                                "disk_io_mbps": 65.46,
+                                "network_latency_ms": 40.24,
+                                "process_count": 128
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:06:01",
+                                "cpu_usage_percent": 12.83,
+                                "memory_usage_gb": 5.55,
+                                "disk_io_mbps": 285.95,
+                                "network_latency_ms": 36.54,
+                                "process_count": 119
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:11:00",
+                                "cpu_usage_percent": 18.54,
+                                "memory_usage_gb": 6.98,
+                                "disk_io_mbps": 314.26,
+                                "network_latency_ms": 31.06,
+                                "process_count": 88
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:16:01",
+                                "cpu_usage_percent": 61.9,
+                                "memory_usage_gb": 10.14,
+                                "disk_io_mbps": 127.65,
+                                "network_latency_ms": 6.96,
+                                "process_count": 112
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:21:00",
+                                "cpu_usage_percent": 20.05,
+                                "memory_usage_gb": 4.21,
+                                "disk_io_mbps": 227.22,
+                                "network_latency_ms": 56.89,
+                                "process_count": 62
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:26:00",
+                                "cpu_usage_percent": 20.38,
+                                "memory_usage_gb": 9.74,
+                                "disk_io_mbps": 227.56,
+                                "network_latency_ms": 44.48,
+                                "process_count": 79
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:31:01",
+                                "cpu_usage_percent": 26.23,
+                                "memory_usage_gb": 11.04,
+                                "disk_io_mbps": 80.75,
+                                "network_latency_ms": 4.72,
+                                "process_count": 54
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:36:01",
+                                "cpu_usage_percent": 33.3,
+                                "memory_usage_gb": 3.43,
+                                "disk_io_mbps": 298.8,
+                                "network_latency_ms": 4.08,
+                                "process_count": 94
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:41:01",
+                                "cpu_usage_percent": 19.73,
+                                "memory_usage_gb": 3.06,
+                                "disk_io_mbps": 302.06,
+                                "network_latency_ms": 26.43,
+                                "process_count": 141
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:46:00",
+                                "cpu_usage_percent": 18.62,
+                                "memory_usage_gb": 9.95,
+                                "disk_io_mbps": 116.92,
+                                "network_latency_ms": 38.2,
+                                "process_count": 107
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:51:01",
+                                "cpu_usage_percent": 41.62,
+                                "memory_usage_gb": 3.42,
+                                "disk_io_mbps": 143.58,
+                                "network_latency_ms": 57.56,
+                                "process_count": 68
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:56:01",
+                                "cpu_usage_percent": 25.57,
+                                "memory_usage_gb": 3.72,
+                                "disk_io_mbps": 108.55,
+                                "network_latency_ms": 44.23,
+                                "process_count": 62
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:01:00",
+                                "cpu_usage_percent": 14.71,
+                                "memory_usage_gb": 4.26,
+                                "disk_io_mbps": 198.03,
+                                "network_latency_ms": 49.13,
+                                "process_count": 96
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:06:00",
+                                "cpu_usage_percent": 68.63,
+                                "memory_usage_gb": 7.12,
+                                "disk_io_mbps": 143.46,
+                                "network_latency_ms": 4.03,
+                                "process_count": 116
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:11:01",
+                                "cpu_usage_percent": 10.85,
+                                "memory_usage_gb": 6.06,
+                                "disk_io_mbps": 84.53,
+                                "network_latency_ms": 7.26,
+                                "process_count": 111
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:16:00",
+                                "cpu_usage_percent": 40.13,
+                                "memory_usage_gb": 8.52,
+                                "disk_io_mbps": 202.27,
+                                "network_latency_ms": 1.51,
+                                "process_count": 118
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:21:00",
+                                "cpu_usage_percent": 52.92,
+                                "memory_usage_gb": 11.27,
+                                "disk_io_mbps": 166.27,
+                                "network_latency_ms": 16.73,
+                                "process_count": 103
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:26:00",
+                                "cpu_usage_percent": 50.23,
+                                "memory_usage_gb": 6.55,
+                                "disk_io_mbps": 306.06,
+                                "network_latency_ms": 52.64,
+                                "process_count": 125
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:31:00",
+                                "cpu_usage_percent": 56.2,
+                                "memory_usage_gb": 3.23,
+                                "disk_io_mbps": 280.53,
+                                "network_latency_ms": 9.16,
+                                "process_count": 133
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:36:01",
+                                "cpu_usage_percent": 51.92,
+                                "memory_usage_gb": 6.47,
+                                "disk_io_mbps": 272.4,
+                                "network_latency_ms": 19.0,
+                                "process_count": 124
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:41:01",
+                                "cpu_usage_percent": 34.82,
+                                "memory_usage_gb": 8.0,
+                                "disk_io_mbps": 109.43,
+                                "network_latency_ms": 49.77,
+                                "process_count": 55
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:46:01",
+                                "cpu_usage_percent": 24.44,
+                                "memory_usage_gb": 8.47,
+                                "disk_io_mbps": 219.27,
+                                "network_latency_ms": 47.18,
+                                "process_count": 55
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:51:01",
+                                "cpu_usage_percent": 27.85,
+                                "memory_usage_gb": 10.06,
+                                "disk_io_mbps": 152.72,
+                                "network_latency_ms": 9.08,
+                                "process_count": 137
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:56:00",
+                                "cpu_usage_percent": 56.58,
+                                "memory_usage_gb": 3.09,
+                                "disk_io_mbps": 247.02,
+                                "network_latency_ms": 1.88,
+                                "process_count": 82
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:01:00",
+                                "cpu_usage_percent": 37.46,
+                                "memory_usage_gb": 2.52,
+                                "disk_io_mbps": 70.39,
+                                "network_latency_ms": 10.65,
+                                "process_count": 118
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:06:00",
+                                "cpu_usage_percent": 43.71,
+                                "memory_usage_gb": 5.37,
+                                "disk_io_mbps": 137.75,
+                                "network_latency_ms": 51.29,
+                                "process_count": 115
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:11:00",
+                                "cpu_usage_percent": 34.86,
+                                "memory_usage_gb": 9.73,
+                                "disk_io_mbps": 70.64,
+                                "network_latency_ms": 48.77,
+                                "process_count": 95
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:16:00",
+                                "cpu_usage_percent": 16.52,
+                                "memory_usage_gb": 7.84,
+                                "disk_io_mbps": 250.22,
+                                "network_latency_ms": 42.32,
+                                "process_count": 81
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:21:01",
+                                "cpu_usage_percent": 26.99,
+                                "memory_usage_gb": 2.61,
+                                "disk_io_mbps": 225.4,
+                                "network_latency_ms": 59.32,
+                                "process_count": 89
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:26:01",
+                                "cpu_usage_percent": 18.66,
+                                "memory_usage_gb": 4.22,
+                                "disk_io_mbps": 307.92,
+                                "network_latency_ms": 7.73,
+                                "process_count": 85
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:31:00",
+                                "cpu_usage_percent": 28.66,
+                                "memory_usage_gb": 6.18,
+                                "disk_io_mbps": 180.58,
+                                "network_latency_ms": 13.38,
+                                "process_count": 116
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:36:01",
+                                "cpu_usage_percent": 24.37,
+                                "memory_usage_gb": 4.44,
+                                "disk_io_mbps": 325.24,
+                                "network_latency_ms": 43.33,
+                                "process_count": 97
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:41:00",
+                                "cpu_usage_percent": 20.45,
+                                "memory_usage_gb": 5.71,
+                                "disk_io_mbps": 56.88,
+                                "network_latency_ms": 1.45,
+                                "process_count": 55
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:46:01",
+                                "cpu_usage_percent": 36.3,
+                                "memory_usage_gb": 4.88,
+                                "disk_io_mbps": 96.6,
+                                "network_latency_ms": 18.98,
+                                "process_count": 115
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:51:01",
+                                "cpu_usage_percent": 68.87,
+                                "memory_usage_gb": 11.51,
+                                "disk_io_mbps": 179.29,
+                                "network_latency_ms": 6.42,
+                                "process_count": 101
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:56:00",
+                                "cpu_usage_percent": 30.96,
+                                "memory_usage_gb": 10.69,
+                                "disk_io_mbps": 270.05,
+                                "network_latency_ms": 15.44,
+                                "process_count": 103
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:01:00",
+                                "cpu_usage_percent": 56.47,
+                                "memory_usage_gb": 4.98,
+                                "disk_io_mbps": 167.72,
+                                "network_latency_ms": 12.19,
+                                "process_count": 134
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:06:00",
+                                "cpu_usage_percent": 26.71,
+                                "memory_usage_gb": 9.68,
+                                "disk_io_mbps": 193.53,
+                                "network_latency_ms": 9.61,
+                                "process_count": 121
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:11:00",
+                                "cpu_usage_percent": 69.52,
+                                "memory_usage_gb": 10.35,
+                                "disk_io_mbps": 200.9,
+                                "network_latency_ms": 53.97,
+                                "process_count": 80
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:16:00",
+                                "cpu_usage_percent": 54.04,
+                                "memory_usage_gb": 7.44,
+                                "disk_io_mbps": 51.81,
+                                "network_latency_ms": 18.31,
+                                "process_count": 130
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:21:00",
+                                "cpu_usage_percent": 37.72,
+                                "memory_usage_gb": 8.39,
+                                "disk_io_mbps": 346.28,
+                                "network_latency_ms": 5.47,
+                                "process_count": 91
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:26:00",
+                                "cpu_usage_percent": 27.63,
+                                "memory_usage_gb": 11.72,
+                                "disk_io_mbps": 136.21,
+                                "network_latency_ms": 53.38,
+                                "process_count": 146
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:31:00",
+                                "cpu_usage_percent": 62.56,
+                                "memory_usage_gb": 3.46,
+                                "disk_io_mbps": 175.5,
+                                "network_latency_ms": 33.59,
+                                "process_count": 82
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:36:00",
+                                "cpu_usage_percent": 17.13,
+                                "memory_usage_gb": 11.58,
+                                "disk_io_mbps": 299.03,
+                                "network_latency_ms": 53.29,
+                                "process_count": 147
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:41:00",
+                                "cpu_usage_percent": 32.17,
+                                "memory_usage_gb": 4.35,
+                                "disk_io_mbps": 299.34,
+                                "network_latency_ms": 39.06,
+                                "process_count": 83
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:46:00",
+                                "cpu_usage_percent": 10.27,
+                                "memory_usage_gb": 5.1,
+                                "disk_io_mbps": 227.23,
+                                "network_latency_ms": 15.59,
+                                "process_count": 83
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:51:00",
+                                "cpu_usage_percent": 17.33,
+                                "memory_usage_gb": 4.71,
+                                "disk_io_mbps": 239.01,
+                                "network_latency_ms": 47.7,
+                                "process_count": 81
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:56:00",
+                                "cpu_usage_percent": 63.58,
+                                "memory_usage_gb": 5.65,
+                                "disk_io_mbps": 132.53,
+                                "network_latency_ms": 38.65,
+                                "process_count": 124
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:01:00",
+                                "cpu_usage_percent": 18.24,
+                                "memory_usage_gb": 2.25,
+                                "disk_io_mbps": 285.04,
+                                "network_latency_ms": 10.47,
+                                "process_count": 69
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:06:00",
+                                "cpu_usage_percent": 13.24,
+                                "memory_usage_gb": 10.43,
+                                "disk_io_mbps": 329.85,
+                                "network_latency_ms": 33.47,
+                                "process_count": 87
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:11:00",
+                                "cpu_usage_percent": 21.76,
+                                "memory_usage_gb": 6.43,
+                                "disk_io_mbps": 198.64,
+                                "network_latency_ms": 55.31,
+                                "process_count": 129
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:15:59",
+                                "cpu_usage_percent": 50.96,
+                                "memory_usage_gb": 4.25,
+                                "disk_io_mbps": 324.95,
+                                "network_latency_ms": 27.25,
+                                "process_count": 148
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:21:00",
+                                "cpu_usage_percent": 21.36,
+                                "memory_usage_gb": 2.09,
+                                "disk_io_mbps": 75.77,
+                                "network_latency_ms": 46.8,
+                                "process_count": 140
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:26:00",
+                                "cpu_usage_percent": 54.4,
+                                "memory_usage_gb": 10.43,
+                                "disk_io_mbps": 208.54,
+                                "network_latency_ms": 37.87,
+                                "process_count": 71
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:31:00",
+                                "cpu_usage_percent": 49.82,
+                                "memory_usage_gb": 9.01,
+                                "disk_io_mbps": 346.57,
+                                "network_latency_ms": 57.9,
+                                "process_count": 50
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:36:00",
+                                "cpu_usage_percent": 68.71,
+                                "memory_usage_gb": 3.62,
+                                "disk_io_mbps": 88.23,
+                                "network_latency_ms": 15.4,
+                                "process_count": 92
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:41:00",
+                                "cpu_usage_percent": 53.24,
+                                "memory_usage_gb": 8.46,
+                                "disk_io_mbps": 51.41,
+                                "network_latency_ms": 1.43,
+                                "process_count": 86
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:46:00",
+                                "cpu_usage_percent": 59.03,
+                                "memory_usage_gb": 6.97,
+                                "disk_io_mbps": 67.23,
+                                "network_latency_ms": 12.34,
+                                "process_count": 64
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:51:00",
+                                "cpu_usage_percent": 45.1,
+                                "memory_usage_gb": 4.93,
+                                "disk_io_mbps": 163.16,
+                                "network_latency_ms": 51.42,
+                                "process_count": 142
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:56:00",
+                                "cpu_usage_percent": 44.96,
+                                "memory_usage_gb": 3.28,
+                                "disk_io_mbps": 213.09,
+                                "network_latency_ms": 28.33,
+                                "process_count": 70
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:01:00",
+                                "cpu_usage_percent": 67.15,
+                                "memory_usage_gb": 7.25,
+                                "disk_io_mbps": 112.78,
+                                "network_latency_ms": 9.53,
+                                "process_count": 139
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:06:00",
+                                "cpu_usage_percent": 58.56,
+                                "memory_usage_gb": 10.75,
+                                "disk_io_mbps": 336.34,
+                                "network_latency_ms": 24.24,
+                                "process_count": 133
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:11:00",
+                                "cpu_usage_percent": 48.44,
+                                "memory_usage_gb": 2.74,
+                                "disk_io_mbps": 94.11,
+                                "network_latency_ms": 32.51,
+                                "process_count": 79
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:16:00",
+                                "cpu_usage_percent": 67.63,
+                                "memory_usage_gb": 10.85,
+                                "disk_io_mbps": 196.37,
+                                "network_latency_ms": 5.18,
+                                "process_count": 64
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:21:02",
+                                "cpu_usage_percent": 32.84,
+                                "memory_usage_gb": 11.26,
+                                "disk_io_mbps": 145.1,
+                                "network_latency_ms": 53.83,
+                                "process_count": 63
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:25:59",
+                                "cpu_usage_percent": 58.7,
+                                "memory_usage_gb": 8.78,
+                                "disk_io_mbps": 161.58,
+                                "network_latency_ms": 16.46,
+                                "process_count": 123
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:30:59",
+                                "cpu_usage_percent": 13.67,
+                                "memory_usage_gb": 7.56,
+                                "disk_io_mbps": 321.15,
+                                "network_latency_ms": 4.47,
+                                "process_count": 76
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:36:00",
+                                "cpu_usage_percent": 69.38,
+                                "memory_usage_gb": 7.72,
+                                "disk_io_mbps": 291.46,
+                                "network_latency_ms": 39.81,
+                                "process_count": 54
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:40:59",
+                                "cpu_usage_percent": 14.48,
+                                "memory_usage_gb": 11.67,
+                                "disk_io_mbps": 206.95,
+                                "network_latency_ms": 29.97,
+                                "process_count": 51
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:46:00",
+                                "cpu_usage_percent": 60.91,
+                                "memory_usage_gb": 9.12,
+                                "disk_io_mbps": 122.57,
+                                "network_latency_ms": 13.38,
+                                "process_count": 129
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:51:01",
+                                "cpu_usage_percent": 27.19,
+                                "memory_usage_gb": 3.26,
+                                "disk_io_mbps": 203.47,
+                                "network_latency_ms": 1.83,
+                                "process_count": 57
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:56:01",
+                                "cpu_usage_percent": 65.52,
+                                "memory_usage_gb": 5.09,
+                                "disk_io_mbps": 199.09,
+                                "network_latency_ms": 56.03,
+                                "process_count": 113
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:01:00",
+                                "cpu_usage_percent": 38.92,
+                                "memory_usage_gb": 7.29,
+                                "disk_io_mbps": 102.44,
+                                "network_latency_ms": 23.48,
+                                "process_count": 50
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:05:59",
+                                "cpu_usage_percent": 69.49,
+                                "memory_usage_gb": 6.25,
+                                "disk_io_mbps": 75.42,
+                                "network_latency_ms": 28.82,
+                                "process_count": 124
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:11:00",
+                                "cpu_usage_percent": 26.33,
+                                "memory_usage_gb": 7.05,
+                                "disk_io_mbps": 348.98,
+                                "network_latency_ms": 19.0,
+                                "process_count": 62
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:15:59",
+                                "cpu_usage_percent": 27.5,
+                                "memory_usage_gb": 2.97,
+                                "disk_io_mbps": 195.91,
+                                "network_latency_ms": 3.74,
+                                "process_count": 118
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:21:00",
+                                "cpu_usage_percent": 36.84,
+                                "memory_usage_gb": 3.96,
+                                "disk_io_mbps": 103.0,
+                                "network_latency_ms": 54.76,
+                                "process_count": 117
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:26:00",
+                                "cpu_usage_percent": 40.27,
+                                "memory_usage_gb": 7.02,
+                                "disk_io_mbps": 343.26,
+                                "network_latency_ms": 58.88,
+                                "process_count": 65
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:31:00",
+                                "cpu_usage_percent": 14.21,
+                                "memory_usage_gb": 9.95,
+                                "disk_io_mbps": 101.39,
+                                "network_latency_ms": 37.07,
+                                "process_count": 84
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:36:00",
+                                "cpu_usage_percent": 21.12,
+                                "memory_usage_gb": 4.64,
+                                "disk_io_mbps": 292.48,
+                                "network_latency_ms": 7.51,
+                                "process_count": 71
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:40:59",
+                                "cpu_usage_percent": 62.86,
+                                "memory_usage_gb": 11.9,
+                                "disk_io_mbps": 133.58,
+                                "network_latency_ms": 40.92,
+                                "process_count": 144
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:46:00",
+                                "cpu_usage_percent": 61.66,
+                                "memory_usage_gb": 10.97,
+                                "disk_io_mbps": 117.79,
+                                "network_latency_ms": 31.12,
+                                "process_count": 53
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:51:00",
+                                "cpu_usage_percent": 44.52,
+                                "memory_usage_gb": 5.99,
+                                "disk_io_mbps": 341.4,
+                                "network_latency_ms": 10.41,
+                                "process_count": 76
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:56:00",
+                                "cpu_usage_percent": 24.01,
+                                "memory_usage_gb": 9.6,
+                                "disk_io_mbps": 211.62,
+                                "network_latency_ms": 51.01,
+                                "process_count": 131
+                        },
+                        {
+                                "timestamp": "2025-08-24 20:01:00",
+                                "cpu_usage_percent": 69.57,
+                                "memory_usage_gb": 2.29,
+                                "disk_io_mbps": 93.01,
+                                "network_latency_ms": 2.0,
+                                "process_count": 92
+                        },
+                        {
+                                "timestamp": "2025-08-24 20:06:00",
+                                "cpu_usage_percent": 45.62,
+                                "memory_usage_gb": 7.01,
+                                "disk_io_mbps": 64.87,
+                                "network_latency_ms": 41.33,
+                                "process_count": 50
+                        }
+                ]
+        },
+        {
+                "apjpnw02sfpr004": [
+                        {
+                                "timestamp": "2025-08-24 12:33:59",
+                                "cpu_usage_percent": 42.21,
+                                "memory_usage_gb": 7.78,
+                                "disk_io_mbps": 356.81,
+                                "network_latency_ms": 75.88,
+                                "process_count": 91
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:36:03",
+                                "cpu_usage_percent": 46.17,
+                                "memory_usage_gb": 15.44,
+                                "disk_io_mbps": 326.96,
+                                "network_latency_ms": 11.61,
+                                "process_count": 183
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:36:07",
+                                "cpu_usage_percent": 31.16,
+                                "memory_usage_gb": 2.78,
+                                "disk_io_mbps": 292.42,
+                                "network_latency_ms": 72.94,
+                                "process_count": 84
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:37:21",
+                                "cpu_usage_percent": 60.24,
+                                "memory_usage_gb": 13.98,
+                                "disk_io_mbps": 393.88,
+                                "network_latency_ms": 64.45,
+                                "process_count": 156
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:41:01",
+                                "cpu_usage_percent": 47.7,
+                                "memory_usage_gb": 2.68,
+                                "disk_io_mbps": 401.46,
+                                "network_latency_ms": 83.39,
+                                "process_count": 84
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:46:01",
+                                "cpu_usage_percent": 23.01,
+                                "memory_usage_gb": 9.56,
+                                "disk_io_mbps": 475.03,
+                                "network_latency_ms": 89.6,
+                                "process_count": 77
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:51:01",
+                                "cpu_usage_percent": 29.79,
+                                "memory_usage_gb": 3.56,
+                                "disk_io_mbps": 112.52,
+                                "network_latency_ms": 85.35,
+                                "process_count": 137
+                        },
+                        {
+                                "timestamp": "2025-08-24 12:56:02",
+                                "cpu_usage_percent": 67.21,
+                                "memory_usage_gb": 7.44,
+                                "disk_io_mbps": 218.09,
+                                "network_latency_ms": 82.62,
+                                "process_count": 169
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:01:01",
+                                "cpu_usage_percent": 69.07,
+                                "memory_usage_gb": 4.36,
+                                "disk_io_mbps": 98.35,
+                                "network_latency_ms": 20.12,
+                                "process_count": 109
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:06:01",
+                                "cpu_usage_percent": 64.93,
+                                "memory_usage_gb": 6.49,
+                                "disk_io_mbps": 129.45,
+                                "network_latency_ms": 57.5,
+                                "process_count": 102
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:11:01",
+                                "cpu_usage_percent": 52.72,
+                                "memory_usage_gb": 10.36,
+                                "disk_io_mbps": 343.99,
+                                "network_latency_ms": 40.63,
+                                "process_count": 89
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:16:01",
+                                "cpu_usage_percent": 39.4,
+                                "memory_usage_gb": 10.07,
+                                "disk_io_mbps": 110.01,
+                                "network_latency_ms": 47.22,
+                                "process_count": 142
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:21:00",
+                                "cpu_usage_percent": 61.66,
+                                "memory_usage_gb": 11.0,
+                                "disk_io_mbps": 230.19,
+                                "network_latency_ms": 2.75,
+                                "process_count": 126
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:26:01",
+                                "cpu_usage_percent": 47.01,
+                                "memory_usage_gb": 10.65,
+                                "disk_io_mbps": 215.68,
+                                "network_latency_ms": 32.51,
+                                "process_count": 108
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:31:01",
+                                "cpu_usage_percent": 60.06,
+                                "memory_usage_gb": 11.01,
+                                "disk_io_mbps": 332.32,
+                                "network_latency_ms": 10.92,
+                                "process_count": 70
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:36:01",
+                                "cpu_usage_percent": 27.1,
+                                "memory_usage_gb": 8.23,
+                                "disk_io_mbps": 348.88,
+                                "network_latency_ms": 4.55,
+                                "process_count": 96
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:41:01",
+                                "cpu_usage_percent": 65.29,
+                                "memory_usage_gb": 8.96,
+                                "disk_io_mbps": 250.04,
+                                "network_latency_ms": 6.66,
+                                "process_count": 79
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:46:01",
+                                "cpu_usage_percent": 67.13,
+                                "memory_usage_gb": 5.08,
+                                "disk_io_mbps": 163.15,
+                                "network_latency_ms": 56.41,
+                                "process_count": 120
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:51:01",
+                                "cpu_usage_percent": 39.26,
+                                "memory_usage_gb": 6.83,
+                                "disk_io_mbps": 66.5,
+                                "network_latency_ms": 12.99,
+                                "process_count": 148
+                        },
+                        {
+                                "timestamp": "2025-08-24 13:56:01",
+                                "cpu_usage_percent": 34.65,
+                                "memory_usage_gb": 9.24,
+                                "disk_io_mbps": 150.45,
+                                "network_latency_ms": 19.6,
+                                "process_count": 94
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:01:00",
+                                "cpu_usage_percent": 30.18,
+                                "memory_usage_gb": 6.45,
+                                "disk_io_mbps": 56.44,
+                                "network_latency_ms": 28.68,
+                                "process_count": 142
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:06:01",
+                                "cpu_usage_percent": 49.08,
+                                "memory_usage_gb": 10.14,
+                                "disk_io_mbps": 191.0,
+                                "network_latency_ms": 51.61,
+                                "process_count": 123
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:11:01",
+                                "cpu_usage_percent": 40.25,
+                                "memory_usage_gb": 3.58,
+                                "disk_io_mbps": 278.22,
+                                "network_latency_ms": 57.2,
+                                "process_count": 101
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:16:00",
+                                "cpu_usage_percent": 55.87,
+                                "memory_usage_gb": 7.12,
+                                "disk_io_mbps": 238.9,
+                                "network_latency_ms": 58.4,
+                                "process_count": 109
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:21:00",
+                                "cpu_usage_percent": 23.67,
+                                "memory_usage_gb": 3.08,
+                                "disk_io_mbps": 192.87,
+                                "network_latency_ms": 10.32,
+                                "process_count": 66
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:26:00",
+                                "cpu_usage_percent": 30.07,
+                                "memory_usage_gb": 8.51,
+                                "disk_io_mbps": 165.04,
+                                "network_latency_ms": 48.23,
+                                "process_count": 141
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:31:00",
+                                "cpu_usage_percent": 32.06,
+                                "memory_usage_gb": 11.44,
+                                "disk_io_mbps": 125.43,
+                                "network_latency_ms": 52.82,
+                                "process_count": 148
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:36:01",
+                                "cpu_usage_percent": 17.94,
+                                "memory_usage_gb": 3.65,
+                                "disk_io_mbps": 95.23,
+                                "network_latency_ms": 39.39,
+                                "process_count": 71
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:41:01",
+                                "cpu_usage_percent": 36.21,
+                                "memory_usage_gb": 7.99,
+                                "disk_io_mbps": 226.73,
+                                "network_latency_ms": 3.69,
+                                "process_count": 90
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:46:01",
+                                "cpu_usage_percent": 25.39,
+                                "memory_usage_gb": 11.35,
+                                "disk_io_mbps": 88.38,
+                                "network_latency_ms": 46.17,
+                                "process_count": 105
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:51:01",
+                                "cpu_usage_percent": 28.85,
+                                "memory_usage_gb": 2.65,
+                                "disk_io_mbps": 215.4,
+                                "network_latency_ms": 32.12,
+                                "process_count": 62
+                        },
+                        {
+                                "timestamp": "2025-08-24 14:56:00",
+                                "cpu_usage_percent": 66.52,
+                                "memory_usage_gb": 11.38,
+                                "disk_io_mbps": 114.94,
+                                "network_latency_ms": 16.58,
+                                "process_count": 75
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:01:00",
+                                "cpu_usage_percent": 19.37,
+                                "memory_usage_gb": 4.37,
+                                "disk_io_mbps": 268.04,
+                                "network_latency_ms": 54.91,
+                                "process_count": 59
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:06:00",
+                                "cpu_usage_percent": 17.5,
+                                "memory_usage_gb": 10.53,
+                                "disk_io_mbps": 128.92,
+                                "network_latency_ms": 52.55,
+                                "process_count": 138
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:11:00",
+                                "cpu_usage_percent": 61.85,
+                                "memory_usage_gb": 7.56,
+                                "disk_io_mbps": 68.78,
+                                "network_latency_ms": 31.17,
+                                "process_count": 141
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:16:00",
+                                "cpu_usage_percent": 45.88,
+                                "memory_usage_gb": 3.08,
+                                "disk_io_mbps": 144.19,
+                                "network_latency_ms": 4.91,
+                                "process_count": 53
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:21:01",
+                                "cpu_usage_percent": 38.45,
+                                "memory_usage_gb": 8.86,
+                                "disk_io_mbps": 174.96,
+                                "network_latency_ms": 19.76,
+                                "process_count": 92
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:26:01",
+                                "cpu_usage_percent": 25.08,
+                                "memory_usage_gb": 7.65,
+                                "disk_io_mbps": 313.2,
+                                "network_latency_ms": 47.52,
+                                "process_count": 66
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:31:00",
+                                "cpu_usage_percent": 44.15,
+                                "memory_usage_gb": 2.68,
+                                "disk_io_mbps": 258.95,
+                                "network_latency_ms": 20.54,
+                                "process_count": 141
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:36:01",
+                                "cpu_usage_percent": 68.67,
+                                "memory_usage_gb": 5.01,
+                                "disk_io_mbps": 245.46,
+                                "network_latency_ms": 4.84,
+                                "process_count": 58
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:41:00",
+                                "cpu_usage_percent": 31.31,
+                                "memory_usage_gb": 11.11,
+                                "disk_io_mbps": 184.52,
+                                "network_latency_ms": 23.18,
+                                "process_count": 109
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:46:01",
+                                "cpu_usage_percent": 65.02,
+                                "memory_usage_gb": 8.75,
+                                "disk_io_mbps": 129.02,
+                                "network_latency_ms": 8.46,
+                                "process_count": 97
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:51:01",
+                                "cpu_usage_percent": 58.32,
+                                "memory_usage_gb": 10.13,
+                                "disk_io_mbps": 219.1,
+                                "network_latency_ms": 23.85,
+                                "process_count": 103
+                        },
+                        {
+                                "timestamp": "2025-08-24 15:56:00",
+                                "cpu_usage_percent": 63.34,
+                                "memory_usage_gb": 4.51,
+                                "disk_io_mbps": 238.74,
+                                "network_latency_ms": 51.19,
+                                "process_count": 69
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:01:00",
+                                "cpu_usage_percent": 17.21,
+                                "memory_usage_gb": 9.58,
+                                "disk_io_mbps": 222.51,
+                                "network_latency_ms": 38.92,
+                                "process_count": 82
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:06:00",
+                                "cpu_usage_percent": 53.17,
+                                "memory_usage_gb": 5.6,
+                                "disk_io_mbps": 269.2,
+                                "network_latency_ms": 17.46,
+                                "process_count": 61
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:11:00",
+                                "cpu_usage_percent": 30.57,
+                                "memory_usage_gb": 11.54,
+                                "disk_io_mbps": 235.84,
+                                "network_latency_ms": 9.5,
+                                "process_count": 120
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:16:00",
+                                "cpu_usage_percent": 37.24,
+                                "memory_usage_gb": 10.23,
+                                "disk_io_mbps": 292.3,
+                                "network_latency_ms": 5.75,
+                                "process_count": 71
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:21:00",
+                                "cpu_usage_percent": 61.16,
+                                "memory_usage_gb": 10.62,
+                                "disk_io_mbps": 312.1,
+                                "network_latency_ms": 36.02,
+                                "process_count": 80
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:26:00",
+                                "cpu_usage_percent": 10.85,
+                                "memory_usage_gb": 10.55,
+                                "disk_io_mbps": 79.19,
+                                "network_latency_ms": 59.58,
+                                "process_count": 125
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:31:00",
+                                "cpu_usage_percent": 31.71,
+                                "memory_usage_gb": 8.73,
+                                "disk_io_mbps": 151.49,
+                                "network_latency_ms": 13.56,
+                                "process_count": 123
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:36:00",
+                                "cpu_usage_percent": 24.54,
+                                "memory_usage_gb": 5.74,
+                                "disk_io_mbps": 140.57,
+                                "network_latency_ms": 12.77,
+                                "process_count": 138
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:41:01",
+                                "cpu_usage_percent": 23.12,
+                                "memory_usage_gb": 8.58,
+                                "disk_io_mbps": 223.34,
+                                "network_latency_ms": 5.27,
+                                "process_count": 129
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:46:00",
+                                "cpu_usage_percent": 15.31,
+                                "memory_usage_gb": 3.19,
+                                "disk_io_mbps": 52.12,
+                                "network_latency_ms": 58.35,
+                                "process_count": 120
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:51:00",
+                                "cpu_usage_percent": 64.11,
+                                "memory_usage_gb": 11.63,
+                                "disk_io_mbps": 105.67,
+                                "network_latency_ms": 48.94,
+                                "process_count": 105
+                        },
+                        {
+                                "timestamp": "2025-08-24 16:56:00",
+                                "cpu_usage_percent": 47.96,
+                                "memory_usage_gb": 8.07,
+                                "disk_io_mbps": 125.84,
+                                "network_latency_ms": 26.99,
+                                "process_count": 119
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:01:00",
+                                "cpu_usage_percent": 55.16,
+                                "memory_usage_gb": 2.96,
+                                "disk_io_mbps": 110.74,
+                                "network_latency_ms": 9.02,
+                                "process_count": 145
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:06:00",
+                                "cpu_usage_percent": 13.74,
+                                "memory_usage_gb": 5.49,
+                                "disk_io_mbps": 94.29,
+                                "network_latency_ms": 57.23,
+                                "process_count": 85
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:11:00",
+                                "cpu_usage_percent": 14.4,
+                                "memory_usage_gb": 10.92,
+                                "disk_io_mbps": 68.49,
+                                "network_latency_ms": 45.0,
+                                "process_count": 66
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:16:00",
+                                "cpu_usage_percent": 23.58,
+                                "memory_usage_gb": 5.15,
+                                "disk_io_mbps": 180.18,
+                                "network_latency_ms": 28.22,
+                                "process_count": 52
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:21:01",
+                                "cpu_usage_percent": 26.73,
+                                "memory_usage_gb": 8.01,
+                                "disk_io_mbps": 206.08,
+                                "network_latency_ms": 17.25,
+                                "process_count": 113
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:26:00",
+                                "cpu_usage_percent": 47.24,
+                                "memory_usage_gb": 2.92,
+                                "disk_io_mbps": 336.75,
+                                "network_latency_ms": 25.16,
+                                "process_count": 138
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:31:00",
+                                "cpu_usage_percent": 48.8,
+                                "memory_usage_gb": 5.61,
+                                "disk_io_mbps": 111.83,
+                                "network_latency_ms": 12.28,
+                                "process_count": 122
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:36:00",
+                                "cpu_usage_percent": 42.09,
+                                "memory_usage_gb": 8.33,
+                                "disk_io_mbps": 255.36,
+                                "network_latency_ms": 59.99,
+                                "process_count": 78
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:41:00",
+                                "cpu_usage_percent": 25.79,
+                                "memory_usage_gb": 9.52,
+                                "disk_io_mbps": 239.94,
+                                "network_latency_ms": 15.63,
+                                "process_count": 133
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:46:00",
+                                "cpu_usage_percent": 58.05,
+                                "memory_usage_gb": 4.26,
+                                "disk_io_mbps": 119.5,
+                                "network_latency_ms": 43.22,
+                                "process_count": 123
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:51:01",
+                                "cpu_usage_percent": 12.67,
+                                "memory_usage_gb": 2.52,
+                                "disk_io_mbps": 81.57,
+                                "network_latency_ms": 19.99,
+                                "process_count": 72
+                        },
+                        {
+                                "timestamp": "2025-08-24 17:56:01",
+                                "cpu_usage_percent": 15.04,
+                                "memory_usage_gb": 5.1,
+                                "disk_io_mbps": 294.78,
+                                "network_latency_ms": 46.86,
+                                "process_count": 124
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:01:00",
+                                "cpu_usage_percent": 40.55,
+                                "memory_usage_gb": 5.34,
+                                "disk_io_mbps": 150.72,
+                                "network_latency_ms": 38.26,
+                                "process_count": 62
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:06:00",
+                                "cpu_usage_percent": 32.8,
+                                "memory_usage_gb": 10.78,
+                                "disk_io_mbps": 66.29,
+                                "network_latency_ms": 40.13,
+                                "process_count": 92
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:11:01",
+                                "cpu_usage_percent": 28.22,
+                                "memory_usage_gb": 4.01,
+                                "disk_io_mbps": 292.96,
+                                "network_latency_ms": 24.42,
+                                "process_count": 56
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:16:00",
+                                "cpu_usage_percent": 19.93,
+                                "memory_usage_gb": 2.71,
+                                "disk_io_mbps": 147.7,
+                                "network_latency_ms": 38.56,
+                                "process_count": 147
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:21:02",
+                                "cpu_usage_percent": 14.83,
+                                "memory_usage_gb": 2.51,
+                                "disk_io_mbps": 59.87,
+                                "network_latency_ms": 22.11,
+                                "process_count": 53
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:25:59",
+                                "cpu_usage_percent": 29.78,
+                                "memory_usage_gb": 5.57,
+                                "disk_io_mbps": 92.14,
+                                "network_latency_ms": 46.39,
+                                "process_count": 61
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:31:00",
+                                "cpu_usage_percent": 63.38,
+                                "memory_usage_gb": 8.68,
+                                "disk_io_mbps": 233.92,
+                                "network_latency_ms": 58.4,
+                                "process_count": 107
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:36:00",
+                                "cpu_usage_percent": 62.28,
+                                "memory_usage_gb": 10.29,
+                                "disk_io_mbps": 107.94,
+                                "network_latency_ms": 26.7,
+                                "process_count": 132
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:40:59",
+                                "cpu_usage_percent": 17.42,
+                                "memory_usage_gb": 10.33,
+                                "disk_io_mbps": 84.59,
+                                "network_latency_ms": 41.04,
+                                "process_count": 108
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:46:00",
+                                "cpu_usage_percent": 34.89,
+                                "memory_usage_gb": 9.84,
+                                "disk_io_mbps": 67.55,
+                                "network_latency_ms": 44.2,
+                                "process_count": 78
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:51:02",
+                                "cpu_usage_percent": 21.47,
+                                "memory_usage_gb": 4.29,
+                                "disk_io_mbps": 332.13,
+                                "network_latency_ms": 57.52,
+                                "process_count": 127
+                        },
+                        {
+                                "timestamp": "2025-08-24 18:56:01",
+                                "cpu_usage_percent": 62.58,
+                                "memory_usage_gb": 5.37,
+                                "disk_io_mbps": 238.2,
+                                "network_latency_ms": 46.34,
+                                "process_count": 107
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:01:00",
+                                "cpu_usage_percent": 57.82,
+                                "memory_usage_gb": 5.2,
+                                "disk_io_mbps": 131.72,
+                                "network_latency_ms": 5.44,
+                                "process_count": 136
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:05:59",
+                                "cpu_usage_percent": 20.47,
+                                "memory_usage_gb": 2.18,
+                                "disk_io_mbps": 333.13,
+                                "network_latency_ms": 25.38,
+                                "process_count": 115
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:11:00",
+                                "cpu_usage_percent": 21.41,
+                                "memory_usage_gb": 8.25,
+                                "disk_io_mbps": 140.65,
+                                "network_latency_ms": 39.79,
+                                "process_count": 105
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:15:59",
+                                "cpu_usage_percent": 59.22,
+                                "memory_usage_gb": 8.97,
+                                "disk_io_mbps": 133.62,
+                                "network_latency_ms": 42.98,
+                                "process_count": 68
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:21:00",
+                                "cpu_usage_percent": 46.95,
+                                "memory_usage_gb": 4.71,
+                                "disk_io_mbps": 151.91,
+                                "network_latency_ms": 24.88,
+                                "process_count": 60
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:26:00",
+                                "cpu_usage_percent": 42.78,
+                                "memory_usage_gb": 2.11,
+                                "disk_io_mbps": 212.37,
+                                "network_latency_ms": 28.74,
+                                "process_count": 128
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:31:00",
+                                "cpu_usage_percent": 61.7,
+                                "memory_usage_gb": 3.88,
+                                "disk_io_mbps": 111.48,
+                                "network_latency_ms": 10.97,
+                                "process_count": 93
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:36:00",
+                                "cpu_usage_percent": 50.85,
+                                "memory_usage_gb": 2.81,
+                                "disk_io_mbps": 312.94,
+                                "network_latency_ms": 17.99,
+                                "process_count": 106
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:40:59",
+                                "cpu_usage_percent": 31.21,
+                                "memory_usage_gb": 5.28,
+                                "disk_io_mbps": 156.84,
+                                "network_latency_ms": 23.6,
+                                "process_count": 148
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:46:00",
+                                "cpu_usage_percent": 47.09,
+                                "memory_usage_gb": 2.64,
+                                "disk_io_mbps": 267.72,
+                                "network_latency_ms": 56.26,
+                                "process_count": 81
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:51:00",
+                                "cpu_usage_percent": 19.85,
+                                "memory_usage_gb": 8.93,
+                                "disk_io_mbps": 64.99,
+                                "network_latency_ms": 42.29,
+                                "process_count": 60
+                        },
+                        {
+                                "timestamp": "2025-08-24 19:56:00",
+                                "cpu_usage_percent": 55.43,
+                                "memory_usage_gb": 6.1,
+                                "disk_io_mbps": 262.72,
+                                "network_latency_ms": 31.8,
+                                "process_count": 114
+                        },
+                        {
+                                "timestamp": "2025-08-24 20:01:00",
+                                "cpu_usage_percent": 61.37,
+                                "memory_usage_gb": 10.6,
+                                "disk_io_mbps": 313.06,
+                                "network_latency_ms": 37.44,
+                                "process_count": 95
+                        },
+                        {
+                                "timestamp": "2025-08-24 20:06:00",
+                                "cpu_usage_percent": 12.85,
+                                "memory_usage_gb": 10.75,
+                                "disk_io_mbps": 174.46,
+                                "network_latency_ms": 48.13,
+                                "process_count": 149
+                        }
+                ]
+        }
+];
+        
+        // Extract server information dynamically
+        var servers = ["apjpnw02sfpr001", "apjpnw02sfpr002", "apjpnw02sfpr003", "apjpnw02sfpr004"];
+        var serverColors = ["#e52d2d", "#89e52d", "#2de5e5", "#892de5"];
+        var metrics = ["cpu_usage_percent", "disk_io_mbps", "memory_usage_gb", "network_latency_ms", "process_count"];
+        
+        // Create server data mapping
+        var serverDataMap = {};
+        cData_1756080434667769590.forEach(serverObj => {
+            Object.keys(serverObj).forEach(serverName => {
+                serverDataMap[serverName] = serverObj[serverName];
+            });
+        });
+        
+        // Get time labels from the first server's data
+        var firstServerData = Object.values(serverDataMap)[0];
+        var timeLabels = firstServerData.map(item => {
+            var date = new Date(item.timestamp);
+            return date.toLocaleTimeString('en-US', { 
+                hour: '2-digit', 
+                minute: '2-digit',
+                second: '2-digit'
+            });
+        });
+        
+        // Update stats
+        var totalDataPoints = Object.values(serverDataMap).reduce((sum, cData_1756080434667769590) => sum + cData_1756080434667769590.length, 0);
+        document.getElementById('dataPoints').textContent = totalDataPoints;
+        
+        if (firstServerData.length > 0) {
+            var firstTime = new Date(firstServerData[0].timestamp);
+            var lastTime = new Date(firstServerData[firstServerData.length - 1].timestamp);
+            var timeDiff = Math.round((lastTime - firstTime) / 1000 / 60); // minutes
+            document.getElementById('timeRange').textContent = timeDiff + ' min';
+        }
+
+        // Chart configuration
+        var chartConfig = {
+            type: 'line',
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    }
+                },
+                scales: {
+                    x: {
+                        grid: {
+                            color: '#f0f0f0'
+                        }
+                    },
+                    y: {
+                        grid: {
+                            color: '#f0f0f0'
+                        }
+                    }
+                }
+            }
+        };
+
+        // Create datasets function
+        function createDatasets(metric, colors) {
+            return servers.map((serverName, index) => {
+                var serverData = serverDataMap[serverName];
+                return {
+                    label: serverName,
+                    data: serverData.map(item => item[metric]),
+                    borderColor: colors[index],
+                    backgroundColor: colors[index] + '20',
+                    borderWidth: 2,
+                    tension: 0.4,
+                    pointBackgroundColor: colors[index],
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 2,
+                    pointRadius: 4
+                };
+            });
+        }
+
+        // Create all charts dynamically
+        
+            // Cpu Usage Percent Chart
+            var cpu_usage_percentChart = new Chart(document.getElementById('cpu_usage_percentChart'), {
+                ...chartConfig,
+                data: {
+                    labels: timeLabels,
+                    datasets: createDatasets('cpu_usage_percent', serverColors)
+                },
+                options: {
+                    ...chartConfig.options,
+                    scales: {
+                        ...chartConfig.options.scales,
+                        y: {
+                            ...chartConfig.options.scales.y,
+                            min: 0,
+                            max: 100,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+    
+            // Disk Io Mbps Chart
+            var disk_io_mbpsChart = new Chart(document.getElementById('disk_io_mbpsChart'), {
+                ...chartConfig,
+                data: {
+                    labels: timeLabels,
+                    datasets: createDatasets('disk_io_mbps', serverColors)
+                },
+                options: {
+                    ...chartConfig.options,
+                    scales: {
+                        ...chartConfig.options.scales,
+                        y: {
+                            ...chartConfig.options.scales.y,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + ' MB/s';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+    
+            // Memory Usage Gb Chart
+            var memory_usage_gbChart = new Chart(document.getElementById('memory_usage_gbChart'), {
+                ...chartConfig,
+                data: {
+                    labels: timeLabels,
+                    datasets: createDatasets('memory_usage_gb', serverColors)
+                },
+                options: {
+                    ...chartConfig.options,
+                    scales: {
+                        ...chartConfig.options.scales,
+                        y: {
+                            ...chartConfig.options.scales.y,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + ' GB';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+    
+            // Network Latency Ms Chart
+            var network_latency_msChart = new Chart(document.getElementById('network_latency_msChart'), {
+                ...chartConfig,
+                data: {
+                    labels: timeLabels,
+                    datasets: createDatasets('network_latency_ms', serverColors)
+                },
+                options: {
+                    ...chartConfig.options,
+                    scales: {
+                        ...chartConfig.options.scales,
+                        y: {
+                            ...chartConfig.options.scales.y,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + ' ms';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+    
+            // Process Count Chart
+            var process_countChart = new Chart(document.getElementById('process_countChart'), {
+                ...chartConfig,
+                data: {
+                    labels: timeLabels,
+                    datasets: createDatasets('process_count', serverColors)
+                },
+                options: {
+                    ...chartConfig.options,
+                    scales: {
+                        ...chartConfig.options.scales,
+                        y: {
+                            ...chartConfig.options.scales.y,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+    
+        </script>
+    
